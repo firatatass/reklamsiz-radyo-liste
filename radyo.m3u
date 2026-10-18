@@ -2,10 +2,10 @@
 #EXTINF:-1 tvg-id="r-2000-fm" group-title="RADYO",2000 FM
 http://sslyayin.netyayin.net:8006/;
 #EXTINF:-1 tvg-id="r-90-lar" group-title="RADYO",90'lar
-http://37.247.98.8/stream/166/
+http://37.247.98.8/stream/30/
 #EXTINF:-1 tvg-id="r-90-lar-pop" group-title="RADYO",90'lar Pop
 https://moondigitaledge.radyotvonline.net/radyolanddoksanlar/playlist.m3u8
-#EXTINF:-1 tvg-id="r-a-haber-radyo" group-title="RADYO",A Haber Radyo
+#EXTINF:-1 tvg-id="r-a-haber-radyo" group-title="RADYO",A Haber Radyo UZAK
 https://trkvz-radyolar.ercdn.net/ahaberradyo/playlist.m3u8
 #EXTINF:-1 tvg-id="r-a-news-radyo" group-title="RADYO",A News Radyo
 https://trkvz-radyolar.ercdn.net/anewsradyo/playlist.m3u8
@@ -13,8 +13,6 @@ https://trkvz-radyolar.ercdn.net/anewsradyo/playlist.m3u8
 https://trkvz-radyolar.ercdn.net/apararadyo/playlist.m3u8
 #EXTINF:-1 tvg-id="r-a-spor-radyo" group-title="RADYO",A Spor Radyo
 https://trkvz-radyolar.ercdn.net/asporradyo/playlist.m3u8
-#EXTINF:-1 tvg-id="r-abuzer-fm" group-title="RADYO",Abuzer FM
-http://live.radyotvonline.com:9030/;
 #EXTINF:-1 tvg-id="r-acik-radyo" group-title="RADYO",Açık Radyo
 http://stream.34bit.net/ar.aac
 #EXTINF:-1 tvg-id="r-ada-fm" group-title="RADYO",Ada FM
@@ -1127,3 +1125,5 @@ https://anadolu.liderhost.com.tr:10880/;
 https://anadolu.liderhost.com.tr:10878/;
 #EXTINF:-1 tvg-id="r-zirve-radyo" group-title="RADYO",Zirve Radyo
 https://radyoserver.qbilisim.com:7006/;
+#EXTINF:-1 tvg-id="r-test-yeni-radyo" group-title="RADYO",TEST YENI RADYO
+http://37.247.98.8/stream/34/
