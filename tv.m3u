@@ -10,17 +10,17 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
 #EXTINF:-1 tvg-id="t-star-tv" tvg-logo="https://i.postimg.cc/W4YhGStZ/Star-TV.png" group-title="ULUSAL KANALLAR",STAR TV
 https://dogus.daioncdn.net/startv/startv_360p.m3u8?&sid=88jhb6leqiih&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
 #EXTINF:-1 tvg-id="t-kanal-d" tvg-logo="https://i.postimg.cc/9QJM21dZ/20240406161353-Kanal-D.png" group-title="ULUSAL KANALLAR",KANAL D
-https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web
+https://demiroren.daioncdn.net/kanald/kanald_360p.m3u8?app=kanald_web
 #EXTINF:-1 tvg-id="t-now" tvg-logo="https://i.postimg.cc/PJsfy7Hn/NOW-TV-(Turkey)-wordmark-red-svg.webp" group-title="ULUSAL KANALLAR",NOW
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_480p.m3u8
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_360p.m3u8
 #EXTINF:-1 tvg-id="t-kanal-7" tvg-logo="https://i.postimg.cc/X7gNKxzY/367-3675294-kanal-7-avrupa-logo-hd-png-download-removebg-preview.png" group-title="ULUSAL KANALLAR",KANAL 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7_360p.m3u8
 #EXTINF:-1 tvg-id="t-tv8" tvg-logo="https://i.postimg.cc/Jhs1L841/Tv8-Yeni-Logo.png" group-title="ULUSAL KANALLAR",TV8
-https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+https://tv8.daioncdn.net/tv8/tv8_360p.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-id="t-tv8-5" tvg-logo="https://i.postimg.cc/rsnncBpM/239124.png" group-title="ULUSAL KANALLAR",TV8,5
 https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_360p.m3u8?&sid=7p0y8eyjbgtu&app=bf58ab52-4865-4c81-b223-26b41009801e&ce=3
 #EXTINF:-1 tvg-id="t-a2" tvg-logo="https://i.postimg.cc/Wz8RZYbf/images-removebg-preview-(4).png" group-title="ULUSAL KANALLAR",A2
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_360p.m3u8
 #EXTINF:-1 tvg-id="t-show-max" tvg-logo="https://i.postimg.cc/BnXW8gWm/Show-MAX-logo-svg.webp" group-title="ULUSAL KANALLAR",SHOW MAX
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
 #EXTINF:-1 tvg-id="t-beyaz-tv" tvg-logo="https://i.postimg.cc/Hx0FGv5V/Beyaz-tv-tr.webp" group-title="ULUSAL KANALLAR",BEYAZ TV
