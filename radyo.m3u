@@ -111,6 +111,8 @@ http://bilecikfm.kesintisizyayin.com:9980/;
 https://ciner-live.ercdn.net/bloombergradyo/bloombergradyo_1.m3u8
 #EXTINF:-1 tvg-id="r-bolu-radyo-yanki" group-title="RADYO",Bolu Radyo Yanki
 https://radyoyanki.ozelip.com/9918/stream
+#EXTINF:-1 tvg-id="r-botan-fm" group-title="RADYO",Botan FM
+https://anadolu.liderhost.com.tr/8166/stream
 #EXTINF:-1 tvg-id="r-box-uk" group-title="RADYO",Box UK
 https://boxstream.danceradiouk.com/stream
 #EXTINF:-1 tvg-id="r-brt-bayrak-fm" group-title="RADYO",Brt Bayrak FM
@@ -137,6 +139,8 @@ http://yorefm.radyotvyayini.com:9420/;
 https://radyo.bursadabugun.com/stream
 #EXTINF:-1 tvg-id="r-can-radyo-izmir" group-title="RADYO",Can Radyo İzmir
 http://yayin1.yayindakiler.com:3124/;
+#EXTINF:-1 tvg-id="r-cemre-fm" group-title="RADYO",Cemre FM
+https://anadolu.liderhost.com.tr/8170/stream
 #EXTINF:-1 tvg-id="r-cnn-turk" group-title="RADYO",CNN Türk
 https://moondigitaledge2.radyotvonline.net/cnnturk/playlist.m3u8
 #EXTINF:-1 tvg-id="r-camlica-fm" group-title="RADYO",Çamlıca FM
@@ -299,6 +303,8 @@ http://160.75.86.29:8088/stream/5/
 http://160.75.86.29:8088/stream/1/
 #EXTINF:-1 tvg-id="r-kafa-radyo" group-title="RADYO",Kafa Radyo
 https://moondigitalmaster.radyotvonline.net/kafaradyo/playlist.m3u8
+#EXTINF:-1 tvg-id="r-kampus-fm" group-title="RADYO",Kampus FM
+http://193.255.97.57/;
 #EXTINF:-1 tvg-id="r-karadeniz-akustik" group-title="RADYO",Karadeniz Akustik
 https://karadenizakustik.radyotvonline.net/;
 #EXTINF:-1 tvg-id="r-karadeniz-fm" group-title="RADYO",Karadeniz FM
@@ -415,6 +421,20 @@ https://radyo1.radyo-dinle.tc:7057/;
 http://kesintisizyayin.com:1656/;
 #EXTINF:-1 tvg-id="r-ntv-radyo" group-title="RADYO",NTV Radyo
 http://ntvrdfms.radyotvonline.com/smil/smil:ntvradyo.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-best-of" group-title="RADYO",Number 1 Best Of
+https://ssldyg2.radyotvonline.com/live/bestofyabanci.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-dance" group-title="RADYO",Number 1 Dance
+https://ssldyg2.radyotvonline.com/live/yabancidance.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-fm" group-title="RADYO",Number 1 FM
+https://ssldyg2.radyotvonline.com/live/numberonefm.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-slow" group-title="RADYO",Number 1 Slow
+https://ssldyg2.radyotvonline.com/live/yabancislow.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-turk-90-lar" group-title="RADYO",Number 1 Türk 90'lar
+https://ssldyg2.radyotvonline.com/live/turkce90lar.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-turk-damar" group-title="RADYO",Number 1 Türk Damar
+https://ssldyg2.radyotvonline.com/live/damar.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-number1-heart" group-title="RADYO",Number1 Heart
+https://ssldyg2.radyotvonline.com/live/heart.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-nur-radyo" group-title="RADYO",Nur Radyo
 https://canli.hidayetradyolari.com/listen/radyo_nur/radio.mp3
 #EXTINF:-1 tvg-id="r-onur-radyo" group-title="RADYO",Onur Radyo
@@ -571,6 +591,8 @@ https://yayin.radyoarabesk.com.tr:8000/stream
 https://radyo1.radyo-dinle.tc:7002/;
 #EXTINF:-1 tvg-id="r-radyo-banko" group-title="RADYO",Radyo Banko
 http://yayin.netradyom.com:8050/radyobanko
+#EXTINF:-1 tvg-id="r-radyo-basaksehir" group-title="RADYO",Radyo Başakşehir
+https://icecast.netmedya.net/rbasaksehir
 #EXTINF:-1 tvg-id="r-radyo-bizim-fm" group-title="RADYO",Radyo Bizim FM
 https://radyoserver60.okeylisans.com:14000/9212/;/;type=mp3
 #EXTINF:-1 tvg-id="r-radyo-bozcaada" group-title="RADYO",Radyo Bozcaada
@@ -619,6 +641,8 @@ http://yayin.yayindakiler.com:4096/;
 https://anadolu.liderhost.com.tr:10956/;
 #EXTINF:-1 tvg-id="r-radyo-gedik" group-title="RADYO",Radyo Gedik
 http://radyo-t.gedik.edu.tr/stream.mp3
+#EXTINF:-1 tvg-id="r-radyo-gencebay" group-title="RADYO",Radyo Gencebay
+http://radyogencebay.com:8000/radio.mp3
 #EXTINF:-1 tvg-id="r-radyo-general" group-title="RADYO",Radyo General
 https://anadolu.liderhost.com.tr:10920/;
 #EXTINF:-1 tvg-id="r-radyo-gercek-samsun" group-title="RADYO",Radyo Gerçek Samsun
@@ -629,6 +653,8 @@ https://edge1.radyotvonline.net/shoutcast/play/radyogol
 https://radyo.yayin.com.tr:6179/;
 #EXTINF:-1 tvg-id="r-radyo-gonul" group-title="RADYO",Radyo Gönül
 https://live.radyo.in/9700/stream/;
+#EXTINF:-1 tvg-id="r-radyo-gokturk" group-title="RADYO",Radyo Göktürk
+https://yayin.radyogokturk.com:8004/;stream.mp3
 #EXTINF:-1 tvg-id="r-radyo-gozde-fm" group-title="RADYO",Radyo Gözde FM
 https://gozdefm.80.yayin.com.tr/;
 #EXTINF:-1 tvg-id="r-radyo-gul" group-title="RADYO",Radyo Gül
@@ -811,6 +837,8 @@ http://yayin1.canliyayin.org:7010/;
 https://radyo1.radyo-dinle.tc:7016/;
 #EXTINF:-1 tvg-id="r-risalet-radyo" group-title="RADYO",Risalet Radyo
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1520b2626.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="r-rock-fm" group-title="RADYO",Rock FM
+https://rockfm.rockfm.com.tr:9450/stream
 #EXTINF:-1 tvg-id="r-rock-fm-2" group-title="RADYO",Rock FM 2
 https://rockfm.rockfm.com.tr:9450/stream
 #EXTINF:-1 tvg-id="r-romantik-adam-fm" group-title="RADYO",Romantik Adam FM
