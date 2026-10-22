@@ -35,8 +35,6 @@ https://live.duhnet.tv/S2/HLS_LIVE/teve2np/track_4_1000/playlist.m3u8
 https://tytturk-live.ercdn.net/tytturk/tytturk_360p.m3u8
 #EXTINF:-1 tvg-id="t-flash-tv" tvg-logo="https://i.postimg.cc/nzkhTkNd/flash-tv-removebg-preview.png" group-title="ULUSAL KANALLAR",FLASH TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/mt_0.m3u8
-#EXTINF:-1 tvg-id="t-telezen" tvg-logo="https://i.ibb.co/HTWLwcJB/n-Shot-20261003-233516627.png" group-title="ULUSAL KANALLAR",TELEZEN
-https://telezen-stream.wisp.uno/telezen.m3u8
 #EXTINF:-1 tvg-id="t-24-tv" tvg-logo="https://i.postimg.cc/d3rm3Dvg/20191109190807-24-TV-logosu.png" group-title="HABER KANALLARI",24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24_360p.m3u8
 #EXTINF:-1 tvg-id="t-ntv" tvg-logo="https://i.postimg.cc/rw8Cy8by/NTV-(Turkey)-logo-svg.webp" group-title="HABER KANALLARI",NTV
@@ -281,8 +279,6 @@ https://api-tv33.yayin.com.tr/ordubeltv/tracks-v1a1/mono.m3u8
 http://162.212.179.32/akamaissh101/ssh101/denizradyotv/chunks.m3u8
 #EXTINF:-1 tvg-id="t-karadeniz-tv" tvg-logo="https://i.postimg.cc/sxvdKC0y/37980733-ico.png" group-title="YEREL KANALLAR",KARADENİZ TV
 https://panel.5gtvhosting.com:2020/hls/karadeniztv/karadeniztv.m3u8
-#EXTINF:-1 tvg-id="t-sen1-ordusun" tvg-logo="https://i.postimg.cc/x14ZXTt2/In-Shot-20260814-111710457.png" group-title="YEREL KANALLAR",SEN1 ORDUSUN
-https://live.euromediacenter.com/sen1ordusun/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-tv-mor" tvg-logo="https://i.postimg.cc/Z5jZZqRb/In-Shot-20251005-230300558.png" group-title="YEREL KANALLAR",TV MOR
 https://live.euromediacenter.com/tvmor/index.m3u8
 #EXTINF:-1 tvg-id="t-trt-cocuk" tvg-logo="https://i.postimg.cc/Bv7dc7Df/TRT-Cocuk-logo-(2021)-svg.webp" group-title="ÇOCUK KANALLARI",TRT ÇOCUK
@@ -437,8 +433,6 @@ https://edge.kuzeykibrissmart.tv/kanalt/bant1/chunks.m3u8
 https://edge.kuzeykibrissmart.tv/adatv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="t-kanal-sim" tvg-logo="https://i.postimg.cc/NFxXdfNv/In-Shot-20251110-120603799.png" group-title="KIBRIS KANALLARI",KANAL SİM
 https://edge.kuzeykibrissmart.tv/simtv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="t-az-tv" tvg-logo="https://i.postimg.cc/TYY33Nkn/Az-TV-(2019).png" group-title="AZERBAYCAN KANALLARI",AZ TV
-https://str.yodacdn.net/azertv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="t-azad-azerbaycan-tv" tvg-logo="https://atv.az/assets/images/logo_white.png" group-title="AZERBAYCAN KANALLARI",AZAD AZERBAYCAN TV
 https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
 #EXTINF:-1 tvg-id="t-gunaz-tv" tvg-logo="https://www.gunaz.tv/frontend/images/logo.png" group-title="AZERBAYCAN KANALLARI",GUNAZ TV
@@ -483,8 +477,6 @@ https://stream.badinan.xyz/welat/tv/chunklist.m3u8
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
 #EXTINF:-1 tvg-id="t-kurdsat-news" tvg-logo="https://i.imgur.com/UAbSwYA.png"" group-title="KÜRTÇE KANALLAR",KURDSAT NEWS
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
-#EXTINF:-1 tvg-id="t-kurd7" tvg-logo="https://i.postimg.cc/SQwnFcBB/kurd-7-tv-1-removebg-preview.png" group-title="KÜRTÇE KANALLAR",KURD7
-http://avrstream.com:1935/live/Kurd7HD/playlist.m3u8
 #EXTINF:-1 tvg-id="t-syria-tv" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="KÜRTÇE KANALLAR",SYRİA TV
 https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="t-cgtn-documentary" tvg-logo="https://i.postimg.cc/yYL6cLc0/CGTN-Documentary-svg.webp" group-title="KARIŞIK YABANCI KANALLAR",CGTN DOCUMENTARY
