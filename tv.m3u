@@ -312,7 +312,7 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17
 #EXTINF:-1 tvg-id="t-nr1-dance" tvg-logo="https://i.postimg.cc/ncLsNQkL/Number-one-tv-logo.png" group-title="MÜZİK KANALLARI",NR1 DANCE
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
 #EXTINF:-1 tvg-id="t-power-turk" tvg-logo="https://i.postimg.cc/Xvr23jZP/Powerturk-TV-logosu.png" group-title="MÜZİK KANALLARI",POWER TÜRK
-https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b7596000_sltur.m3u8
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="t-power-slow" tvg-logo="https://i.postimg.cc/CxKKHJf8/37859459-ico.png" group-title="MÜZİK KANALLARI",POWER SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/chunks.m3u8
 #EXTINF:-1 tvg-id="t-power-turk-taptaze" tvg-logo="https://i.postimg.cc/02k5PZZg/37859466-ico.png" group-title="MÜZİK KANALLARI",POWER TÜRK TAPTAZE
