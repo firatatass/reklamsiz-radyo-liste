@@ -297,12 +297,6 @@ https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-id="t-zarok-tv-2" tvg-logo="https://i.postimg.cc/26BBkKFS/Zarok-TV.webp" group-title="ÇOCUK KANALLARI",ZAROK TV 2
 https://hlspackager.akamaized.net/live/DB/ZAROK_TV/HLS/ZAROK_TV.m3u8
-#EXTINF:-1 tvg-id="t-fx2-cartoon" tvg-logo="https://i.postimg.cc/FKrtZvwT/images-removebg-preview-(3).png" group-title="ÇOCUK KANALLARI",FX2 CARTOON
-https://toonixhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="t-pop-tv" tvg-logo="https://i.imgur.com/fGUlCY3.png" group-title="ÇOCUK KANALLARI",POP TV
-https://narrative-popkids-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="t-tiny-pop" tvg-logo="https://i.imgur.com/zCTf71x.png" group-title="ÇOCUK KANALLARI",TİNY POP
-https://amg01753-narrativeentert-tinypop-samsunguk-hvvb7.amagi.tv/playlist/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="t-sat7-kids" tvg-logo="https://i.postimg.cc/bNfW9g8H/38736982-ico.png" group-title="ÇOCUK KANALLARI",SAT7 KİDS
 https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="t-kral-pop-tv" tvg-logo="https://i.hizliresim.com/vogcoq4i.png" group-title="MÜZİK KANALLARI",KRAL POP TV
@@ -371,10 +365,6 @@ http://media.finest.tv/hls/live.m3u8
 https://live.euromediacenter.com/ezgitv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-vrt" tvg-logo="https://i.postimg.cc/FzMMdGHy/In-Shot-20251120-194024645.png" group-title="MÜZİK KANALLARI",VRT
 https://vrttv.ozelip.com:3278/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="t-trace-urban" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="MÜZİK KANALLARI",TRACE URBAN
-https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="t-trace-latina" tvg-logo="https://i.imgur.com/CUVAi4u.png" group-title="MÜZİK KANALLARI",TRACE LATİNA
-https://amg01131-tracetv-tracelatina-klowdtv-v10em.amagi.tv/playlist/amg01131-tracetv-tracelatina-klowdtv/playlist.m3u8
 #EXTINF:-1 tvg-id="t-super-tv" tvg-logo="https://i.postimg.cc/bNnv6d6Q/38883719-ico.png" group-title="MÜZİK KANALLARI",SUPER TV
 http://iptv.supertv.ro:8000/play/a001/index.m3u8
 #EXTINF:-1 tvg-id="t-televole-tv" tvg-logo="https://r.resimlink.com/aSpDT9u.png" group-title="MÜZİK KANALLARI",TELEVOLE TV
@@ -479,31 +469,7 @@ https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 #EXTINF:-1 tvg-id="t-syria-tv" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="KÜRTÇE KANALLAR",SYRİA TV
 https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="t-cgtn-documentary" tvg-logo="https://i.postimg.cc/yYL6cLc0/CGTN-Documentary-svg.webp" group-title="KARIŞIK YABANCI KANALLAR",CGTN DOCUMENTARY
-https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
 #EXTINF:-1 tvg-id="t-afroturk-tv" tvg-logo="https://afroturktv.com/u/i/afroturk-logo.png" group-title="KARIŞIK YABANCI KANALLAR",AFROTÜRK TV
 https://edge2.taksimbilisim.com/naturaltv/bant1/chunks.m3u8
-#EXTINF:-1 tvg-id="t-andorra-tv" tvg-logo="https://r.resimlink.com/JpAKvX_.png" group-title="KARIŞIK YABANCI KANALLAR",ANDORRA TV
-https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8
-#EXTINF:-1 tvg-id="t-pointe-tv" tvg-logo="https://r.resimlink.com/csqHMJ0jvE.png" group-title="KARIŞIK YABANCI KANALLAR",POİNTE TV
-https://tv.pointville.ag/hls/mystream.m3u8
-#EXTINF:-1 tvg-id="t-bravo-kids" tvg-logo="https://i.imgur.com/JcJ6fQ9.png" group-title="KARIŞIK YABANCI KANALLAR",BRAVO! KİDS
-https://streaming.radiohub.hr/RadioHub_WEB_streaming/BHWUC27pGZ/3.m3u8
-#EXTINF:-1 tvg-id="t-dangal-tv" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DANGAL/images/LOGO_HD/image.png" group-title="KARIŞIK YABANCI KANALLAR",DANGAL TV
-https://live-dangal.akamaized.net/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-id="t-dangal-2" tvg-logo="https://i.imgur.com/BEr1r7L.png" group-title="KARIŞIK YABANCI KANALLAR",DANGAL 2
-https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-id="t-agro-tv-bg" tvg-logo="https://r.resimlink.com/aJhzXO.png" group-title="KARIŞIK YABANCI KANALLAR",AGRO TV BG
-https://restr2.bgtv.bg/agro/hls/agro.m3u8
-#EXTINF:-1 tvg-id="t-city-tv" tvg-logo="https://i.imgur.com/mFL452f.png" group-title="KARIŞIK YABANCI KANALLAR",CİTY TV
-https://tv.city.bg/play/tshls/citytv/index.m3u8
-#EXTINF:-1 tvg-id="t-magic-tv" tvg-logo="https://r.resimlink.com/wN-_d.png" group-title="KARIŞIK YABANCI KANALLAR",MAGİC TV
-https://bss1.neterra.tv/magictv/magictv.m3u8
 #EXTINF:-1 tvg-id="t-kanal-d2" tvg-logo="https://r.resimlink.com/iRrdB63XZHhI.webp" group-title="KARIŞIK YABANCI KANALLAR",KANAL D2
 https://stream2.kanald.ro/iphone/knd2-live_low/index.m3u8
-#EXTINF:-1 tvg-id="t-ant1" tvg-logo="https://i.imgur.com/2KAObBt.png" group-title="KARIŞIK YABANCI KANALLAR",ANT1
-http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
-#EXTINF:-1 tvg-id="t-star-gr" tvg-logo="https://i.imgur.com/6NUpxhr.png" group-title="KARIŞIK YABANCI KANALLAR",STAR GR
-http://livestar.siliconweb.com/starvod/star4/star4.m3u8
-#EXTINF:-1 tvg-id="t-abc-news" tvg-logo="https://r.resimlink.com/rb_qw.png" group-title="KARIŞIK YABANCI KANALLAR",ABC NEWS
-https://aegis-cloudfront-1.tubi.video/d6cbb0de-68e4-4f3b-82f9-bf5d526e0bde/index.m3u8
