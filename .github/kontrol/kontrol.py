@@ -38,6 +38,8 @@ MIN_STREAM_BYTES = 16_000
 GEO_CODES = {401, 403, 451}
 
 SSL_CTX = ssl.create_default_context()
+# Android'in desteklediği eski (RSA anahtar değişimli) şifreleme yöntemlerine de izin ver; sertifika denetimi aynen sürer.
+SSL_CTX.set_ciphers("DEFAULT")
 TIMEOUT_SIMDI = [TIMEOUT]
 
 

@@ -293,6 +293,8 @@ http://37.247.98.8/stream/29/
 http://yayin.turkhosted.com:6006/;
 #EXTINF:-1 tvg-id="r-elazig-radyo-hazar" group-title="RADYO",Elazig Radyo Hazar
 http://radyo.yayin.com.tr:8286/;
+#EXTINF:-1 tvg-id="r-elbistan-kent-fm" group-title="RADYO",Elbistan Kent FM
+https://radyo.arkacadde.org/4648/elbistankentfm.mp3
 #EXTINF:-1 tvg-id="r-elbistan-radyo-umut" group-title="RADYO",Elbistan Radyo Umut
 http://yayin.canliyayin.org:8892/;
 #EXTINF:-1 tvg-id="r-emek-radyo" group-title="RADYO",Emek Radyo
@@ -379,6 +381,8 @@ https://anadolu.liderhost.com.tr:10886/;
 https://yayin.radyomadyo.com:9590/stream
 #EXTINF:-1 tvg-id="r-gimsa-radyo" group-title="RADYO",Gimsa Radyo
 http://yayin1.canliyayin.org:9482/stream
+#EXTINF:-1 tvg-id="r-goksun-fm" group-title="RADYO",Göksun FM
+https://sslyayin.netyayin.net:10970/;stream.mp3
 #EXTINF:-1 tvg-id="r-gold-fm" group-title="RADYO",Gold FM
 http://dijimedya.radyotvonline.net/goldfm
 #EXTINF:-1 tvg-id="r-gold-turk" group-title="RADYO",Gold Türk
@@ -991,6 +995,8 @@ https://studio21.radiolize.com/radio/8100/radio.mp3?1647021999
 http://radyofitrat.radyotvonline.net/
 #EXTINF:-1 tvg-id="r-radyo-flash-aydin" group-title="RADYO",Radyo Flash Aydın
 http://yayin.yayindakiler.com:4096/;
+#EXTINF:-1 tvg-id="r-radyo-fresh" group-title="RADYO",Radyo Fresh
+https://canli.radyofresh.com/stream
 #EXTINF:-1 tvg-id="r-radyo-galata" group-title="RADYO",Radyo Galata
 https://anadolu.liderhost.com.tr:10956/;
 #EXTINF:-1 tvg-id="r-radyo-gedik" group-title="RADYO",Radyo Gedik
@@ -1063,6 +1069,8 @@ http://radyoki.kocaeli.edu.tr:8000/;
 https://listen.powerapp.com.tr/radyoki/mpeg/icecast.audio
 #EXTINF:-1 tvg-id="r-radyo-kocatepe-afyon-kocatepe-uni" group-title="RADYO",Radyo Kocatepe (Afyon Kocatepe Üni.)
 https://radyo.aku.edu.tr/radyo
+#EXTINF:-1 tvg-id="r-radyo-ksu" group-title="RADYO",Radyo KSÜ
+https://radyo2.ksu.edu.tr:8443/live
 #EXTINF:-1 tvg-id="r-radyo-ktu" group-title="RADYO",Radyo KTÜ
 https://sslyayin.netyayin.net/radyoktu/stream/;type=mp3
 #EXTINF:-1 tvg-id="r-radyo-kultur" group-title="RADYO",Radyo Kültür

@@ -281,6 +281,8 @@ http://162.212.179.32/akamaissh101/ssh101/denizradyotv/chunks.m3u8
 https://panel.5gtvhosting.com:2020/hls/karadeniztv/karadeniztv.m3u8
 #EXTINF:-1 tvg-id="t-tv-mor" tvg-logo="https://i.postimg.cc/Z5jZZqRb/In-Shot-20251005-230300558.png" group-title="YEREL KANALLAR",TV MOR
 https://live.euromediacenter.com/tvmor/index.m3u8
+#EXTINF:-1 tvg-id="t-kon-tv" group-title="YEREL KANALLAR",KON TV
+https://canli.kontv.com.tr/live/kontv.m3u8
 #EXTINF:-1 tvg-id="t-trt-cocuk" tvg-logo="https://i.postimg.cc/Bv7dc7Df/TRT-Cocuk-logo-(2021)-svg.webp" group-title="ÇOCUK KANALLARI",TRT ÇOCUK
 https://tv-trtcocuk.medya.trt.com.tr/master_360.m3u8
 #EXTINF:-1 tvg-id="t-trt-diyanet-cocuk" tvg-logo="https://i.postimg.cc/1tL2bgJJ/TRT-Diyanet-Cocuk-logo-svg.webp" group-title="ÇOCUK KANALLARI",TRT DİYANET ÇOCUK

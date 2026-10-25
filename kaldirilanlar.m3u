@@ -113,3 +113,5 @@ http://yayin.turkiletisim.com.tr:1080/;
 https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="r-yunus-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Yunus FM
 http://95.173.162.184:7350/;
+#EXTINF:-1 tvg-id="r-cesur-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-25" calisti="",Cesur FM
+http://yayin.cesurfm.com:8146/;
