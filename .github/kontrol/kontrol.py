@@ -32,7 +32,16 @@ USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 TIMEOUT = 15
 TEKRAR_TIMEOUT = 30  # tekrar turlarında yavaş sunuculara daha uzun süre tanınır
 MIN_SEGMENT_BYTES = 10_000
-MIN_STREAM_BYTES = 16_000
+# Bazı sunucular birkaç saniyelik veri gönderip bağlantıyı kesiyor (ör. StreamTheWorld tarayıcı kimliğine 32 KB);
+# bu yüzden ~8 saniyelik ses okunur.
+MIN_STREAM_BYTES = 64_000
+# Uygulama (RadioService.userAgentFor) StreamTheWorld'e kendi kimliğiyle bağlanıyor; test de aynısını yapar.
+APP_USER_AGENT = "Mozilla/5.0 (Linux; Android) ReklamsizRadyo/3.0"
+
+
+def kimlik(url):
+    host = (urllib.parse.urlsplit(url).hostname or "").lower()
+    return APP_USER_AGENT if host.endswith("streamtheworld.com") else USER_AGENT
 
 # Bu HTTP kodları çoğunlukla yayının yurt dışına kapalı olduğunu gösterir (GitHub sunucuları ABD'de).
 GEO_CODES = {401, 403, 451}
@@ -70,7 +79,7 @@ def icy_oku(url, limit):
     try:
         if p.scheme == "https":
             s = SSL_CTX.wrap_socket(s, server_hostname=p.hostname)
-        s.sendall((f"GET {yol} HTTP/1.0\r\nHost: {p.hostname}\r\nUser-Agent: {USER_AGENT}\r\n"
+        s.sendall((f"GET {yol} HTTP/1.0\r\nHost: {p.hostname}\r\nUser-Agent: {kimlik(url)}\r\n"
                    "Icy-MetaData: 1\r\nConnection: close\r\n\r\n").encode())
         veri = b""
         while len(veri) < limit + 4096:
@@ -91,9 +100,9 @@ def icy_oku(url, limit):
 
 def oku(url, limit=None, radyo=False):
     """URL'yi indirir. (gövde, son_url) döner. limit verilirse en fazla o kadar bayt okur."""
-    basliklar = {"User-Agent": USER_AGENT, "Accept-Encoding": "gzip, deflate"}
+    basliklar = {"User-Agent": kimlik(url), "Accept-Encoding": "gzip, deflate"}
     if radyo:
-        basliklar = {"User-Agent": USER_AGENT, "Icy-MetaData": "1"}  # uygulama radyolarda bunu gönderiyor
+        basliklar = {"User-Agent": kimlik(url), "Icy-MetaData": "1"}  # uygulama radyolarda bunu gönderiyor
     istek = urllib.request.Request(url, headers=basliklar)
     try:
         with urllib.request.urlopen(istek, timeout=TIMEOUT_SIMDI[0], context=SSL_CTX) as yanit:
