@@ -297,6 +297,8 @@ http://radyo.yayin.com.tr:8286/;
 https://radyo.arkacadde.org/4648/elbistankentfm.mp3
 #EXTINF:-1 tvg-id="r-elbistan-radyo-umut" group-title="RADYO",Elbistan Radyo Umut
 http://yayin.canliyayin.org:8892/;
+#EXTINF:-1 tvg-id="r-elbistan-yore-fm" group-title="RADYO",Elbistan Yöre FM
+https://ip.elbistanyorefm.com.tr:8022/;
 #EXTINF:-1 tvg-id="r-emek-radyo" group-title="RADYO",Emek Radyo
 http://yayin1.radyohizmeti.com:8585/;
 #EXTINF:-1 tvg-id="r-enderun-fm" group-title="RADYO",Enderun FM
