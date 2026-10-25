@@ -1,0 +1,39 @@
+name: Kaldırılan yayınları yeniden dene
+
+on:
+  schedule:
+    # Her gün 16:30 UTC = Türkiye saatiyle 19:30 (günlük kontrolden sonra).
+    - cron: "30 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: liste-yazma
+  cancel-in-progress: false
+
+jobs:
+  dene:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Kaldırılanları dene, 2 gün üst üste çalışanı geri ekle
+        run: |
+          set +e
+          python3 .github/kontrol/geri_ekle.py dene
+          kod=$?
+          [ $kod -eq 0 ] || [ $kod -eq 3 ] || exit $kod
+
+      - name: Değişiklik varsa kaydet ve önbelleği temizle
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add kaldirilanlar.m3u radyo.m3u tv.m3u surum.json
+          if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
+          degisen=$(git diff --cached --name-only | tr '\n' ' ')
+          git commit -m "Kaldırılan yayınlar yeniden denendi"
+          git push
+          for f in $degisen; do curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/$f" > /dev/null; done
