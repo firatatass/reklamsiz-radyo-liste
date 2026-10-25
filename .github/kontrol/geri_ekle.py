@@ -82,7 +82,7 @@ def nitelik_yaz(extinf, ad, deger):
 
 def temizle(extinf):
     """kaldirilanlar.m3u'ya özel nitelikleri çıkarır (listeye geri eklenecek hali)."""
-    return re.sub(r'\s(liste|kaldirilma|calisti)="[^"]*"', "", extinf)
+    return re.sub(r'\s(liste|kaldirilma|calisti|atla)="[^"]*"', "", extinf)
 
 
 def isim(extinf):
@@ -159,9 +159,12 @@ def dene():
         print("Kaldırılan yayın yok.")
         return 0
     geri = {k: [] for k in LISTELER}
-    kalan = []
+    # atla="..." yazılı kayıtlar denenmez (ör. Türkiye'de erişim engeli olan ya da yabancı devlet yayını).
+    atlanan = [k for k in bekleyen if nitelik(k[0], "atla")]
+    bekleyen = [k for k in bekleyen if not nitelik(k[0], "atla")]
     with concurrent.futures.ThreadPoolExecutor(8) as havuz:
         sonuclar = list(havuz.map(lambda k: calisiyor_mu(k[1]), bekleyen))
+    kalan = list(atlanan)
     for (e, u), (tamam, aciklama) in zip(bekleyen, sonuclar):
         print(f"{isim(e)}: {aciklama}", flush=True)
         if not tamam:
