@@ -457,8 +457,6 @@ https://live.kwikmotion.com/waarmedialive/waarmedia.smil/waarmediapublish/waarme
 https://hls.4utv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="t-4-kurd-music" tvg-logo="https://i.postimg.cc/brhRcHQ8/37823853-ico.png" group-title="KÜRTÇE KANALLAR",4 KURD MUSİC
 https://4kuhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="t-denge-zelal-tv" tvg-logo="https://i.postimg.cc/J0yN2hDy/38842253-ico.png" group-title="KÜRTÇE KANALLAR",DENGE ZELAL TV
-https://dengetv.ozelip.com:3143/live/dengelive.m3u8
 #EXTINF:-1 tvg-id="t-ava-tv" tvg-logo="https://i.postimg.cc/3wBV3fSn/unnamed.png" group-title="KÜRTÇE KANALLAR",AVA TV
 https://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
 #EXTINF:-1 tvg-id="t-welat-tv" tvg-logo="https://welattv.net/files/welattv-logo-6_0.png" group-title="KÜRTÇE KANALLAR",WELAT TV
