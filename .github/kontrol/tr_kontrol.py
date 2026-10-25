@@ -2,10 +2,10 @@
 """ABD'den (GitHub) çalışmayan yayınları Türkiye'den (İstanbul) yeniden dener ve günlük maili hazırlar.
 
 Türkiye'den deneme için check-host.net'in İstanbul'daki iki test noktası (tr1, tr2) kullanılır.
-  - Herhangi bir noktadan HTTP 200 gelirse yayın Türkiye'de çalışıyor sayılır.
-  - Radyo akışları hiç bitmediği için HTTP denemesi ~25 sn sonra "zaman aşımı" ile biter. Bu durumda
-    sunucunun portuna TCP bağlantısı da kurulabiliyorsa yayın akıyor demektir (kapalı sunucu ya hemen
-    reddeder ya da hiç bağlanmaz).
+  - Ses gelmemesi, 404, sertifika hatası gibi yerden bağımsız hatalar doğrudan bozuk sayılır.
+  - Diğer hatalarda herhangi bir noktadan net HTTP 200 gelirse yayın Türkiye'de çalışıyor sayılır.
+  - Elle doğrulanmış yurt dışı engelli yayınlar (kanallar/yurtdisi_engelli.txt) Türkiye'den net bir
+    red gelmedikçe çalışıyor sayılır.
   - Servise ulaşılamazsa yayın "Türkiye'den doğrulanamadı" olarak çalışmayanlarda gösterilir.
 
 Ayrıca durum/gecmis.json içinde her bozuk yayının ilk bozuk görüldüğü gün tutulur; mailde
@@ -55,43 +55,59 @@ def sonuc_bekle(istek_id, sure=45):
         time.sleep(3)
 
 
-def turkiye_dene(url, abd_hatasi=""):
-    """('calisiyor' | 'bozuk' | 'dogrulanamadi', açıklama) döner."""
-    if abd_hatasi in ("HTTP 404", "HTTP 410"):
-        # "Bulunamadı" yurt dışı engeli değildir; yayın sunucudan kalkmış.
-        # (Türkiye test noktasının önbellekli bir CDN kopyasından 200 alması yanıltabiliyor.)
-        return "bozuk", "yayın sunucuda yok (404), Türkiye testi gerekmedi"
-    url = uygulama_gibi_duzelt(url)
+# Yerden bağımsız hatalar: sunucu cevap veriyor ama yayın yok/bozuk, ya da telefon bu yayını açamaz.
+# Bunlar Türkiye'den de aynıdır; Türkiye test noktası içeriği okumadığı için yanıltabilir.
+KESIN_HATALAR = ("HTTP 404", "HTTP 410", "SSL", "CERTIFICATE", "certificate", "yeterli veri gelmedi",
+                 "parça çok küçük", "geçersiz yayın listesi", "yayın listesinde parça yok", "geçersiz DASH")
+
+# Türkiye'de çalıştığı elle doğrulanmış, yurt dışına kapalı yayınlar (gizli kontrol deposunda).
+BILINEN_YURTDISI = "kanallar/yurtdisi_engelli.txt"
+
+
+def bilinen_yurtdisi():
     try:
-        r = sonuc_bekle(kontrol_baslat("http", url))
+        with open(BILINEN_YURTDISI, encoding="utf-8") as f:
+            return {s.strip() for s in f if s.strip() and not s.startswith("#")}
+    except FileNotFoundError:
+        return set()
+
+
+def turkiye_dene(url, abd_hatasi=""):
+    """('calisiyor' | 'bozuk' | 'dogrulanamadi', açıklama) döner.
+
+    Türkiye test noktası sadece ilk HTTP cevabını görür, yayının içeriğini okumaz. Bu yüzden sadece net
+    "200" cevabı çalışıyor sayılır. Hiç bitmeyen radyo akışları orada zaman aşımına düşer ve
+    takılı kalan bir sunucudan ayırt edilemez; bunlar için elle doğrulanmış yurt dışı listesine bakılır.
+    """
+    for k in KESIN_HATALAR:
+        if k in abd_hatasi:
+            return "bozuk", f"yayın sorunu yerden bağımsız ({abd_hatasi[:60]})"
+    duz = uygulama_gibi_duzelt(url)
+    try:
+        r = sonuc_bekle(kontrol_baslat("http", duz))
     except Exception as e:  # noqa: BLE001
-        return "dogrulanamadi", f"Türkiye testi yapılamadı ({type(e).__name__})"
-    aciklamalar, zaman_asimi = [], False
+        r, hata = {}, f"Türkiye testi yapılamadı ({type(e).__name__})"
+    else:
+        hata = ""
+    aciklamalar, kesin_red = [], False
     for d in DUGUMLER:
-        for s in r.get(d) or []:
+        sonuc = r.get(d)
+        for s in (sonuc if isinstance(sonuc, list) else []):
             # s = [başarılı mı, süre, mesaj, http kodu, ip]
-            if not s:
-                continue
+            if not isinstance(s, list) or len(s) < 4:
+                continue  # servis bazen hata nesnesi döndürüyor
             if s[0] == 1 and str(s[3]) == "200":
                 return "calisiyor", "Türkiye'den HTTP 200"
-            if str(s[3]) in ("301", "302", "303", "307", "308"):
-                # Test noktası yönlendirmeyi takip etmiyor; sunucu ayakta ve cevap veriyor.
-                return "calisiyor", "Türkiye'den yönlendirme (sunucu ayakta)"
-            mesaj = f"{s[2]}" + (f" ({s[3]})" if s[3] else "")
-            aciklamalar.append(mesaj)
-            if "timed out" in str(s[2]).lower() and s[1] and float(s[1]) >= 20:
-                zaman_asimi = True
+            aciklamalar.append(f"{s[2]}" + (f" ({s[3]})" if s[3] else ""))
+            kod = int(s[3]) if str(s[3]).isdigit() else 0
+            if kod >= 400 or "refused" in str(s[2]).lower() or "no such" in str(s[2]).lower():
+                kesin_red = True  # sunucu net bir hata verdi ya da hiç yok
+    if url in bilinen_yurtdisi() and not kesin_red:
+        return "calisiyor", "Türkiye'de çalıştığı bilinen, yurt dışına kapalı yayın"
+    if hata:
+        return "dogrulanamadi", hata
     if not aciklamalar:
         return "dogrulanamadi", "Türkiye test noktaları cevap vermedi"
-    if zaman_asimi and not url.lower().split("?")[0].endswith((".m3u8", ".mpd")):
-        p = urllib.parse.urlsplit(url)
-        port = p.port or (443 if p.scheme == "https" else 80)
-        try:
-            t = sonuc_bekle(kontrol_baslat("tcp", f"{p.hostname}:{port}"), sure=30)
-            if any(isinstance(x, dict) and "time" in x for d in DUGUMLER for x in (t.get(d) or [])):
-                return "calisiyor", "Türkiye'den akış devam ediyor"
-        except Exception:  # noqa: BLE001
-            pass
     return "bozuk", "Türkiye'den: " + aciklamalar[0]
 
 

@@ -1,1 +1,115 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="r-aksaray-kral-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Aksaray Kral FM
+https://sslyayin.radyoyayini.com:7099/;
+#EXTINF:-1 tvg-id="r-arabesk-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Arabesk FM
+http://anadolu.liderhost.com.tr:6688/;
+#EXTINF:-1 tvg-id="r-atlantis-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Atlantis FM
+http://live4.radyotvonline.com:9400/;
+#EXTINF:-1 tvg-id="r-bilecik-radyo-11" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Bilecik Radyo 11
+http://95.173.161.131:9832/;
+#EXTINF:-1 tvg-id="r-burhaniye-ses-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Burhaniye Ses Radyo
+http://95.173.161.133:9350/;
+#EXTINF:-1 tvg-id="r-can-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Can Radyo
+http://canradyo.kesintisizyayin.com:3838/;
+#EXTINF:-1 tvg-id="r-cine-dost-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Çine Dost FM
+https://anadolu.liderhost.com.tr:10893/;
+#EXTINF:-1 tvg-id="r-dada-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Dada Radyo
+http://stream.laut.fm/dadaradio
+#EXTINF:-1 tvg-id="r-dance-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Dance FM
+https://live.nrgplay.com/stream/dancefm
+#EXTINF:-1 tvg-id="r-essex-turkish-radio" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Essex Turkish Radio
+https://anadolu.liderhost.com.tr:10947/;
+#EXTINF:-1 tvg-id="r-eynesil-mercan-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Eynesil Mercan FM
+https://ip169.ozelip.com:10975/;
+#EXTINF:-1 tvg-id="r-ferdi-baba-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Ferdi Baba FM
+https://radyoferdibaba.ozelip.com:8012/
+#EXTINF:-1 tvg-id="r-gulsehir-gul-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Gülşehir Gül FM
+http://radyonevsehir.radyoyayini.com:5000/;
+#EXTINF:-1 tvg-id="r-guney-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Güney FM
+http://95.173.162.185:9350/;
+#EXTINF:-1 tvg-id="r-hisar-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Hisar FM
+http://dinle.hisarfm.net:9621/;
+#EXTINF:-1 tvg-id="r-isik-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Işık Radyo
+https://ssl123.ozelip.com:7029/;
+#EXTINF:-1 tvg-id="r-klas-radio" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Klas Radio
+https://anadolu.liderhost.com.tr:10929/;
+#EXTINF:-1 tvg-id="r-muslum-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Müslüm FM
+https://radyo1.muslumfm.com/radio/8010/radio.mp3
+#EXTINF:-1 tvg-id="r-nevsehir-radyo-mega" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Nevşehir Radyo Mega
+https://ip132.ozelip.com/8050/stream
+#EXTINF:-1 tvg-id="r-nrg-deep-house" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",NRG Deep House
+http://live.nrgplay.com/stream/deephouse
+#EXTINF:-1 tvg-id="r-ntv-spor-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",NTV Spor Radyo
+http://ntvsporwmp.radyotvonline.com/;
+#EXTINF:-1 tvg-id="r-number-1-turk-eller-havaya" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Number 1 Türk Eller Havaya
+https://eustr75.mediatriple.net/Number1Media/05_Number1_Turk_Eller_Havaya.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-turk-rap" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Number 1 Türk Rap
+https://eustr75.mediatriple.net/Number1Media/30_Number1_Turk_Rap.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-turk-slow" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Number 1 Türk Slow
+https://eustr75.mediatriple.net/Number1Media/03_Number1_Turk_Slow.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="r-ortaca-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Ortaca FM
+http://live.radyotvonline.com:9100/;
+#EXTINF:-1 tvg-id="r-ozlem-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Özlem FM
+https://ssl123.ozelip.com:7017/;
+#EXTINF:-1 tvg-id="r-ozgur-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Özgür Radyo
+https://live.sinirsizhost.com/8036/stream
+#EXTINF:-1 tvg-id="r-radio-5-legend" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radio 5 Legend
+http://radiocom.80.yayin.com.tr/stream
+#EXTINF:-1 tvg-id="r-radio-net" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radio Net
+https://anadolu.liderhost.com.tr:10983/;
+#EXTINF:-1 tvg-id="r-radio-net-lowe" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radio Net Lowe
+https://anadolu.liderhost.com.tr:10979/;
+#EXTINF:-1 tvg-id="r-radyo-20" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo 20
+http://www.radyo20.com.tr:9180/;
+#EXTINF:-1 tvg-id="r-radyo-bektas" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Bektaş
+https://anadolu.liderhost.com.tr:10874/;
+#EXTINF:-1 tvg-id="r-radyo-busem" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Busem
+https://anadolu.liderhost.com.tr:10882/;
+#EXTINF:-1 tvg-id="r-radyo-caglar" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Çağlar
+https://sssx.radyosfer.com/radyocaglar/stream
+#EXTINF:-1 tvg-id="r-radyo-eflatun" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Eflatun
+https://radyo1.radyo-dinle.tc:7037/;
+#EXTINF:-1 tvg-id="r-radyo-engelsiz-erisim" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Engelsiz Erişim
+https://radyo1.radyo-dinle.tc:7034/;
+#EXTINF:-1 tvg-id="r-radyo-fenomen-2010-lar" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Fenomen 2010'lar
+https://live.radyofenomen.com/fenomen2010/abr/playlist.m3u8
+#EXTINF:-1 tvg-id="r-radyo-girebi" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Girebi
+https://ssl123.ozelip.com:8066/;
+#EXTINF:-1 tvg-id="r-radyo-gol" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Gol
+https://ssl4.radyotvonline.com/radyohome/radyogolhome.stream_aac/playlist.m3u8
+#EXTINF:-1 tvg-id="r-radyo-gunes" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Güneş
+https://sssx.radyosfer.com/radyogunes/stream
+#EXTINF:-1 tvg-id="r-radyo-haber" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Haber
+http://yayin.yayindakiler.com:4118/;
+#EXTINF:-1 tvg-id="r-radyo-liva" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Liva
+http://yayin.radyoliva.com:3068
+#EXTINF:-1 tvg-id="r-radyo-makara" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Makara
+https://ip169.ozelip.com:10998/;
+#EXTINF:-1 tvg-id="r-radyo-nester" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Neşter
+https://live.sinirsizhost.com/8026/stream/
+#EXTINF:-1 tvg-id="r-radyo-siir" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Şiir
+https://radyo1.radyo-dinle.tc:7020/;
+#EXTINF:-1 tvg-id="r-radyo-ti" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Ti
+https://anadolu.liderhost.com.tr:10968/;
+#EXTINF:-1 tvg-id="r-radyo-tokat" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Tokat
+http://radyo.yayin.com.tr:5908/;
+#EXTINF:-1 tvg-id="r-radyo-turkiyem-tokat" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Türkiyem Tokat
+http://yayin.turkiletisim.com.tr:9207/;
+#EXTINF:-1 tvg-id="r-radyo-turku" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Türkü
+http://radyo.turkuradyo.net:4591/;
+#EXTINF:-1 tvg-id="r-radyo-turkuevi" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Türküevi
+http://95.0.173.195:9000/turku
+#EXTINF:-1 tvg-id="r-radyo-vatan-turku" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Vatan Türkü
+http://95.0.173.195:9000/turku
+#EXTINF:-1 tvg-id="r-radyo-yuksel" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Yüksel
+http://yayin.canliyayin.org:8232/;
+#EXTINF:-1 tvg-id="r-rs-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Rs FM
+https://nfw.ria.ru/flv/audio.aspx?id=98318704&type=mp3
+#EXTINF:-1 tvg-id="r-tekirdag-radyo-haber" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Tekirdağ Radyo Haber
+http://yayin2.yayindakiler.com:4118/;
+#EXTINF:-1 tvg-id="r-tokat-ozlem-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Tokat Özlem FM
+http://yayin.turkiletisim.com.tr:1080/;
+#EXTINF:-1 tvg-id="r-trt-radyo-haber" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",TRT Radyo Haber
+https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="r-yunus-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Yunus FM
+http://95.173.162.184:7350/;

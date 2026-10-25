@@ -14,14 +14,16 @@ Kullanım (deponun kökünde):
 Çıkış kodu: dene -> 0 değişiklik yok, 3 dosyalar değişti.
 """
 import argparse
+import concurrent.futures
 import datetime
 import json
 import os
 import re
 import sys
+import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from kontrol import YayinHatasi, yayin_test  # noqa: E402
+from kontrol import USER_AGENT, YayinHatasi, uygulama_gibi_duzelt, yayin_test  # noqa: E402
 from tr_kontrol import turkiye_dene  # noqa: E402
 
 LISTELER = {"radyo": "radyo.m3u", "tv": "tv.m3u"}
@@ -107,12 +109,46 @@ def ekle(kayitlar, yeni, liste):
     kayitlar.append(yeni)
 
 
+GENEL_KELIMELER = {"radyo", "radio", "fm", "am", "tv", "the", "canli", "online", "yayin", "turk", "turkiye"}
+
+
+def kelimeler(metin):
+    metin = metin.translate(str.maketrans("çğıöşüÇĞİÖŞÜ", "cgiosuCGIOSU")).casefold()
+    return {k for k in re.findall(r"[a-z0-9]+", metin) if len(k) > 1 and k not in GENEL_KELIMELER}
+
+
+def yayin_adi(url):
+    """Radyo akışının kendini tanıttığı ad (icy-name); yoksa boş döner."""
+    if re.search(r"\.(m3u8|mpd)", url, re.I):
+        return ""
+    try:
+        istek = urllib.request.Request(uygulama_gibi_duzelt(url), headers={"User-Agent": USER_AGENT, "Icy-MetaData": "1"})
+        with urllib.request.urlopen(istek, timeout=15) as y:
+            return (y.headers.get("icy-name") or "").strip()
+    except Exception:  # noqa: BLE001
+        return ""
+
+
+def ayni_radyo_mu(ad, url):
+    """Eski link başka bir radyoya verilmiş olabilir: yayının adı radyonun adıyla hiç örtüşmüyorsa geri ekleme."""
+    icy = yayin_adi(url)
+    if not icy or not kelimeler(ad) or not kelimeler(icy):
+        return True, icy
+    sikisik = "".join(re.findall(r"[a-z0-9]+", icy.translate(str.maketrans("çğıöşüÇĞİÖŞÜ", "cgiosuCGIOSU")).casefold()))
+    ad_sikisik = "".join(re.findall(r"[a-z0-9]+", ad.translate(str.maketrans("çğıöşüÇĞİÖŞÜ", "cgiosuCGIOSU")).casefold()))
+    ortak = any(k in sikisik for k in kelimeler(ad)) or any(k in ad_sikisik for k in kelimeler(icy))
+    return ortak, icy
+
+
 def calisiyor_mu(url):
     try:
         yayin_test(url)
         return True, "çalışıyor"
     except YayinHatasi as e:
-        durum, aciklama = turkiye_dene(url, str(e))
+        try:
+            durum, aciklama = turkiye_dene(url, str(e))
+        except Exception as e2:  # noqa: BLE001
+            return False, f"ABD: {e}; Türkiye testi yapılamadı ({type(e2).__name__})"
         return durum == "calisiyor", f"ABD: {e}; {aciklama}"
 
 
@@ -124,13 +160,19 @@ def dene():
         return 0
     geri = {k: [] for k in LISTELER}
     kalan = []
-    for e, u in bekleyen:
-        tamam, aciklama = calisiyor_mu(u)
+    with concurrent.futures.ThreadPoolExecutor(8) as havuz:
+        sonuclar = list(havuz.map(lambda k: calisiyor_mu(k[1]), bekleyen))
+    for (e, u), (tamam, aciklama) in zip(bekleyen, sonuclar):
         print(f"{isim(e)}: {aciklama}", flush=True)
         if not tamam:
             kalan.append([nitelik_yaz(e, "calisti", ""), u])
         elif nitelik(e, "calisti") and nitelik(e, "calisti") != gun:
-            geri[nitelik(e, "liste") or "radyo"].append([temizle(e), u])
+            ayni, icy = ayni_radyo_mu(isim(e), u)
+            if ayni:
+                geri[nitelik(e, "liste") or "radyo"].append([temizle(e), u])
+            else:
+                print(f"GERİ EKLENMEDİ: {isim(e)} linki artık '{icy}' adlı başka bir yayını çalıyor", flush=True)
+                kalan.append([nitelik_yaz(e, "calisti", ""), u])
         else:
             kalan.append([nitelik_yaz(e, "calisti", gun), u])
 
