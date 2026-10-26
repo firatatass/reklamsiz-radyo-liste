@@ -31,6 +31,8 @@ https://moondigitalmaster.radyotvonline.net/altinsarkilar/playlist.m3u8
 https://trkvz-radyolar.ercdn.net/anewsradyo/playlist.m3u8
 #EXTINF:-1 tvg-id="r-a-para-radyo" group-title="RADYO",A Para Radyo
 https://trkvz-radyolar.ercdn.net/apararadyo/playlist.m3u8
+#EXTINF:-1 tvg-id="r-arabesk-fm" group-title="RADYO",Arabesk FM
+http://anadolu.liderhost.com.tr:6688/;
 #EXTINF:-1 tvg-id="r-arkadas-radyo" group-title="RADYO",Arkadaş Radyo
 http://yayin2.yayindakiler.com:4134/;stream.nsv
 #EXTINF:-1 tvg-id="r-a-spor-radyo" group-title="RADYO",A Spor Radyo
@@ -535,6 +537,8 @@ https://gece.radioca.st/stream
 https://kiyi.radioca.st/stream
 #EXTINF:-1 tvg-id="r-kiyi-turkce" group-title="RADYO",Kıyı Türkçe
 https://kiyiturk.radioca.st/stream
+#EXTINF:-1 tvg-id="r-klas-radio" group-title="RADYO",Klas Radio
+https://anadolu.liderhost.com.tr:10929/;
 #EXTINF:-1 tvg-id="r-koc-okulu-radyosu" group-title="RADYO",Koç Okulu Radyosu
 http://live.powerapp.com.tr/kocschool/mpeg/icecast.audio
 #EXTINF:-1 tvg-id="r-k-pop" group-title="RADYO",K-Pop
@@ -691,6 +695,8 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/ODEA128AAC.aac
 https://omuradyo.ozelip.com/8042/stream
 #EXTINF:-1 tvg-id="r-onur-radyo" group-title="RADYO",Onur Radyo
 https://anadolu.liderhost.com.tr/8094/stream
+#EXTINF:-1 tvg-id="r-ortaca-fm" group-title="RADYO",Ortaca FM
+http://live.radyotvonline.com:9100/;
 #EXTINF:-1 tvg-id="r-osmaniye-radyo-80" group-title="RADYO",Osmaniye Radyo 80
 http://yayin2.yayindakiler.com:4064/;
 #EXTINF:-1 tvg-id="r-ostim-radyo" group-title="RADYO",Ostim Radyo
@@ -1261,6 +1267,8 @@ http://live4.radyotvonline.com:6570/;
 https://studio25.radiolize.com/radio/8200/radio.mp3
 #EXTINF:-1 tvg-id="r-radyo-yaren" group-title="RADYO",Radyo Yaren
 https://sslyayin.radyoyayini.com:7097/stream
+#EXTINF:-1 tvg-id="r-radyo-yuksel" group-title="RADYO",Radyo Yüksel
+http://yayin.canliyayin.org:8232/;
 #EXTINF:-1 tvg-id="r-radyo-zergan" group-title="RADYO",Radyo Zergan
 https://sslyayin.netyayin.net/radyozergan/;
 #EXTINF:-1 tvg-id="r-radyo-zile-fm" group-title="RADYO",Radyo Zile FM
