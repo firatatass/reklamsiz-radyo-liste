@@ -22,6 +22,7 @@ import json
 import os
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -34,10 +35,17 @@ GECMIS = "durum/gecmis.json"
 
 
 def api(yol):
+    """Servis yoğunlukta isteği reddedebiliyor (ör. 429); 5 ve 15 sn arayla tekrar denenir."""
     istek = urllib.request.Request(API + yol, headers={"Accept": "application/json",
                                                        "User-Agent": "reklamsiz-radyo-kontrol"})
-    with urllib.request.urlopen(istek, timeout=30) as y:
-        return json.load(y)
+    for bekle in (5, 15, None):
+        try:
+            with urllib.request.urlopen(istek, timeout=30) as y:
+                return json.load(y)
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError):
+            if bekle is None:
+                raise
+            time.sleep(bekle)
 
 
 def kontrol_baslat(tur, hedef):
@@ -86,7 +94,7 @@ def turkiye_dene(url, abd_hatasi=""):
     try:
         r = sonuc_bekle(kontrol_baslat("http", duz))
     except Exception as e:  # noqa: BLE001
-        r, hata = {}, f"Türkiye testi yapılamadı ({type(e).__name__})"
+        r, hata = {}, f"Türkiye testi yapılamadı ({type(e).__name__} {getattr(e, 'code', '')})".replace(" )", ")")
     else:
         hata = ""
     aciklamalar, kesin_red = [], False
@@ -129,7 +137,7 @@ def main():
     bugun = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=3))).date()
     gecmis = gecmis_oku()
     yeni_gecmis = {}
-    gercek, sadece_yurtdisi = [], []
+    gercek, sadece_yurtdisi, dogrulanamayan = [], [], []
     sayilar = {}
 
     for yol in args.sonuclar:
@@ -138,13 +146,17 @@ def main():
         tur_adi = "TV" if "tv" in os.path.basename(yol).lower() else "radyo"
         sayilar.setdefault(tur_adi, 0)
         denenecek = veri.get("hatalar", []) + veri.get("engeller", [])
-        with concurrent.futures.ThreadPoolExecutor(4) as havuz:
+        with concurrent.futures.ThreadPoolExecutor(2) as havuz:
             tr_sonuclari = list(havuz.map(lambda h: turkiye_dene(h["url"], h.get("hata", "")), denenecek))
         for h, (durum, aciklama) in zip(denenecek, tr_sonuclari):
             print(f"{h['ad']}: {durum} - {aciklama}", flush=True)
             kayit = {**h, "tur_adi": tur_adi, "tr": aciklama}
             if durum == "calisiyor":
                 sadece_yurtdisi.append(kayit)
+                continue
+            if durum == "dogrulanamadi" and any(k in h.get("hata", "") for k in ("HTTP 401", "HTTP 403", "HTTP 451")):
+                # Türkiye testi yapılamadı ve ABD'den gelen hata yurt dışı engeli belirtisi: mail atılmaz, bilgi olarak yazılır.
+                dogrulanamayan.append(kayit)
                 continue
             ilk = gecmis.get(h["url"], bugun.isoformat())
             yeni_gecmis[h["url"]] = ilk
@@ -167,6 +179,11 @@ def main():
     if sadece_yurtdisi:
         satirlar += ["Sadece yurt dışından açılmayan, Türkiye'de çalışan yayınlar (sorun sayılmadı, bilgi için):", ""]
         satirlar += [f"- {s['ad']} ({s['tur_adi']})" for s in sadece_yurtdisi]
+        satirlar.append("")
+    if dogrulanamayan:
+        satirlar += ["Yurt dışından açılmayan ama bugün Türkiye'den doğrulanamayan yayınlar (Türkiye test servisi cevap vermedi; "
+                     "büyük ihtimalle yurt dışı engeli, mail sebebi sayılmadı):", ""]
+        satirlar += [f"- {s['ad']} ({s['tur_adi']}): {s['hata']}" for s in dogrulanamayan]
         satirlar.append("")
     satirlar.append("_ABD'de başarısız olan her yayın 1 ve 5 dakika arayla tekrar denendi, sonra Türkiye'den doğrulandı._")
     with open(args.govde, "w", encoding="utf-8") as f:

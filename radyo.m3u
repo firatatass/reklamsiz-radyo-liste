@@ -1221,8 +1221,6 @@ http://radyo.yayin.com.tr:6056/stream
 https://live.radyositesihazir.com/8034/stream
 #EXTINF:-1 tvg-id="r-radyo-ulku" group-title="RADYO",Radyo Ülkü
 http://radyo.yayin.com.tr:4006/;
-#EXTINF:-1 tvg-id="r-radyo-uni-14-bolu-abant-izzet-baysal-uni" group-title="RADYO",Radyo Üni 14 (Bolu Abant İzzet Baysal Üni.)
-http://baiburadyo.ibu.edu.tr:8000/yayin
 #EXTINF:-1 tvg-id="r-radyo-universite-ataturk-uni" group-title="RADYO",Radyo Üniversite (Atatürk Üni.)
 http://radyo102.atauni.edu.tr:8000/arabellavie
 #EXTINF:-1 tvg-id="r-radyo-universite-cukurova-uni" group-title="RADYO",Radyo Üniversite (Çukurova Üni.)
@@ -1353,8 +1351,6 @@ http://dinle.slowkaradenizfm.com:9578/;
 https://anadolu.liderhost.com.tr:10973/;
 #EXTINF:-1 tvg-id="r-slow-turk" group-title="RADYO",Slow Türk
 https://radyo.duhnet.tv/ak_dtvh_slowturk
-#EXTINF:-1 tvg-id="r-soft-radyo" group-title="RADYO",Soft Radyo
-https://radyo.softradyo.com/1140/stream
 #EXTINF:-1 tvg-id="r-sole-radyo" group-title="RADYO",Sole Radyo
 https://playerservices.streamtheworld.com/api/livestream-redirect/SOLE128AAC.aac
 #EXTINF:-1 tvg-id="r-sputnik-turkiye" group-title="RADYO",Sputnik Türkiye
