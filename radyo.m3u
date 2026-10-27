@@ -881,6 +881,8 @@ https://moondigitaledge2.radyotvonline.net/radyo7turku/playlist.m3u8
 https://ssl4.radyotvonline.com/radyohome/ulkeradyo.stream_aac/chunklist.m3u8
 #EXTINF:-1 tvg-id="r-radyo-75" group-title="RADYO",Radyo 75
 https://anadolu.liderhost.com.tr/8126/stream
+#EXTINF:-1 tvg-id="r-radyo-8-elbistan" group-title="RADYO",Radyo 8 Elbistan
+http://live.radyo.in:6642/stream
 #EXTINF:-1 tvg-id="r-radyo-81" group-title="RADYO",Radyo 81
 http://yayin.turkhosted.com:3030/;
 #EXTINF:-1 tvg-id="r-radyo-90" group-title="RADYO",Radyo 90
