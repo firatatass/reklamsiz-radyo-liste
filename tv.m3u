@@ -60,7 +60,7 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-id="t-tv100" tvg-logo="https://s.tv100.com/assets/web/images/logo.svg" group-title="HABER KANALLARI",TV100
 https://ensonhaber-live.ercdn.net/tv100/tv100.m3u8
 #EXTINF:-1 tvg-id="t-tvnet" tvg-logo="https://www.tvnet.com.tr/img/logo.png" group-title="HABER KANALLARI",TVNET
-https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/chunklist_w1327906541.m3u8
+https://tvnet-live.lg.mncdn.com/tvnet-live/tvnet/playlist.m3u8
 #EXTINF:-1 tvg-id="t-cnbc-e" tvg-logo="https://i.postimg.cc/85Fb8tYs/CNBC-e-2025-svg.webp" group-title="HABER KANALLARI",CNBC-E
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8?tv=1
 #EXTINF:-1 tvg-id="t-ulke-tv" tvg-logo="https://i.postimg.cc/rwc1BR4S/Ulke-TV-logo-svg.webp" group-title="HABER KANALLARI",ÜLKE TV
