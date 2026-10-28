@@ -67,10 +67,8 @@ https://anadolu.liderhost.com.tr:10882/;
 https://sssx.radyosfer.com/radyocaglar/stream
 #EXTINF:-1 tvg-id="r-radyo-eflatun" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Eflatun
 https://radyo1.radyo-dinle.tc:7037/;
-#EXTINF:-1 tvg-id="r-radyo-engelsiz-erisim" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="2026-10-27",Radyo Engelsiz Erişim
+#EXTINF:-1 tvg-id="r-radyo-engelsiz-erisim" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Engelsiz Erişim
 https://radyo1.radyo-dinle.tc:7034/;
-#EXTINF:-1 tvg-id="r-radyo-fenomen-2010-lar" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="2026-10-27",Radyo Fenomen 2010'lar
-https://live.radyofenomen.com/fenomen2010/abr/playlist.m3u8
 #EXTINF:-1 tvg-id="r-radyo-girebi" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Girebi
 https://ssl123.ozelip.com:8066/;
 #EXTINF:-1 tvg-id="r-radyo-gol" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Gol

@@ -995,6 +995,8 @@ https://ssl120.radyotelekom.com.tr/8024/stream
 https://stream.fbu.edu.tr/stream
 #EXTINF:-1 tvg-id="r-radyo-fenomen" group-title="RADYO",Radyo Fenomen
 https://live.radyofenomen.com/fenomen/128/icecast.audio
+#EXTINF:-1 tvg-id="r-radyo-fenomen-2010-lar" group-title="RADYO",Radyo Fenomen 2010'lar
+https://live.radyofenomen.com/fenomen2010/abr/playlist.m3u8
 #EXTINF:-1 tvg-id="r-radyo-fenomen-clubbin" group-title="RADYO",Radyo Fenomen Clubbin
 https://live.radyofenomen.com/fenomenclubbin/128/icecast.audio
 #EXTINF:-1 tvg-id="r-radyo-fenomen-dans" group-title="RADYO",Radyo Fenomen Dans
