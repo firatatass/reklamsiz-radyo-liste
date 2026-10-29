@@ -78,7 +78,7 @@ http://37.247.98.8/stream/25/
 #EXTINF:-1 tvg-id="r-ankara-havalari" group-title="RADYO",Ankara Havaları
 http://37.247.98.8/stream/30/
 #EXTINF:-1 tvg-id="r-ankara-universitesi" group-title="RADYO",Ankara Üniversitesi
-https://radyo.ilef.net/stream
+https://radyoilef.ankara.edu.tr/live
 #EXTINF:-1 tvg-id="r-antakya-radyo-renk" group-title="RADYO",Antakya Radyo Renk
 http://yayin1.yayindakiler.com:3016
 #EXTINF:-1 tvg-id="r-antakya-renk-fm-hatay" group-title="RADYO",Antakya Renk FM Hatay
