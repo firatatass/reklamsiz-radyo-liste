@@ -137,8 +137,6 @@ https://i41.ozelip.com:3269/hybrid/play.m3u8
 https://live.euromediacenter.com/brukselturk/index.m3u8
 #EXTINF:-1 tvg-id="t-gurbet-24-tv" tvg-logo="https://www.gurbet24.com/images/logoyen.png" group-title="AVRUPA KANALLARI",GURBET 24 TV
 https://cdn-gurbet24.yayin.com.tr/gurbet24/gurbet24/chunklist_w1998469160.m3u8
-#EXTINF:-1 tvg-id="t-kardes-tv" tvg-logo="https://i.postimg.cc/wvr7sPnF/In-Shot-20251020-120311849.png" group-title="AVRUPA KANALLARI",KARDEŞ TV
-https://yayin30.haber100.com/live/kardestv/chunklist_w403767422.m3u8
 #EXTINF:-1 tvg-id="t-mk-turk" tvg-logo="https://i.hizliresim.com/2j5jf3wv.png" group-title="AVRUPA KANALLARI",MK TÜRK
 https://live.euromediacenter.com/mkturk/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-fortuna-tv" tvg-logo="https://i.postimg.cc/QdtBtvWb/37975749-ico.png" group-title="AVRUPA KANALLARI",FORTUNA TV
@@ -225,8 +223,6 @@ https://edge2.taksimbilisim.com/linetv/bant1/chunks.m3u8
 https://edge2.taksimbilisim.com/caytv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="t-atv-alanya" tvg-logo="https://alanyatelevizyonucomtr.teimg.com/alanyatelevizyonu-com-tr/uploads/2023/11/a-t-v-l-o-g-o-1.svg" group-title="YEREL KANALLAR",ATV ALANYA
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/chunklist_w116897790.m3u8
-#EXTINF:-1 tvg-id="t-kardelen-tv" tvg-logo="https://i.postimg.cc/3RwxcCtT/unnamed-removebg-preview-(1).png" group-title="YEREL KANALLAR",KARDELEN TV
-https://edge2.taksimbilisim.com/kardelentv/bant1/chunks.m3u8?
 #EXTINF:-1 tvg-id="t-luys-tv" tvg-logo="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/Aq2Zk1zK5WsMokll/luys-logo-mv0LokJNE3tK8ovr.png" group-title="YEREL KANALLAR",LUYS TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_2.m3u8
 #EXTINF:-1 tvg-id="t-alanya-posta-tv" tvg-logo="https://i.imgur.com/a3w9eFe.png" group-title="YEREL KANALLAR",ALANYA POSTA TV
@@ -399,10 +395,6 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-al-zahra-tv" tvg-logo="https://i.postimg.cc/VLsvG246/37957928-ico.png" group-title="DİNİ KANALLAR",AL ZAHRA TV
 https://live.al-zahratv.com/live/playlist.m3u8
-#EXTINF:-1 tvg-id="t-anadolum-tv" tvg-logo="https://i.postimg.cc/pVsSmyTZ/images-removebg-preview-(9).png" group-title="DİNİ KANALLAR",ANADOLUM TV
-https://cdn4.yayin.com.tr/anadolum/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="t-asf-tv" tvg-logo="https://i.postimg.cc/yNCQMZQB/372458-removebg-preview.png" group-title="DİNİ KANALLAR",ASF TV
-https://cdn4.yayin.com.tr/serhattv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-ikra-tv" tvg-logo="https://ikratv.com/images/pir-muhammed-huseyin/ikrayayin.png" group-title="DİNİ KANALLAR",İKRA TV
 https://rtmp.ikratv.com/live/kanal1/v0/index.m3u8
 #EXTINF:-1 tvg-id="t-kudus-tv" tvg-logo="https://kudustv.com.tr/images/logo/logo.png?" group-title="DİNİ KANALLAR",KUDÜS TV

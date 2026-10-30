@@ -109,3 +109,11 @@ http://yayin.cesurfm.com:8146/;
 http://baiburadyo.ibu.edu.tr:8000/yayin
 #EXTINF:-1 tvg-id="r-soft-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-27" calisti="",Soft Radyo
 https://radyo.softradyo.com/1140/stream
+#EXTINF:-1 tvg-id="t-kardes-tv" tvg-logo="https://i.postimg.cc/wvr7sPnF/In-Shot-20251020-120311849.png" group-title="AVRUPA KANALLARI" liste="tv" kaldirilma="2026-10-30" calisti="",KARDEŞ TV
+https://yayin30.haber100.com/live/kardestv/chunklist_w403767422.m3u8
+#EXTINF:-1 tvg-id="t-kardelen-tv" tvg-logo="https://i.postimg.cc/3RwxcCtT/unnamed-removebg-preview-(1).png" group-title="YEREL KANALLAR" liste="tv" kaldirilma="2026-10-30" calisti="",KARDELEN TV
+https://edge2.taksimbilisim.com/kardelentv/bant1/chunks.m3u8?
+#EXTINF:-1 tvg-id="t-anadolum-tv" tvg-logo="https://i.postimg.cc/pVsSmyTZ/images-removebg-preview-(9).png" group-title="DİNİ KANALLAR" liste="tv" kaldirilma="2026-10-30" calisti="",ANADOLUM TV
+https://cdn4.yayin.com.tr/anadolum/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="t-asf-tv" tvg-logo="https://i.postimg.cc/yNCQMZQB/372458-removebg-preview.png" group-title="DİNİ KANALLAR" liste="tv" kaldirilma="2026-10-30" calisti="",ASF TV
+https://cdn4.yayin.com.tr/serhattv/tracks-v1a1/mono.m3u8
