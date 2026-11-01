@@ -153,8 +153,6 @@ https://cdn-kanal23.yayin.com.tr/kanal23/tracks-v1a1/mono.m3u8
 https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/chunks.m3u8
 #EXTINF:-1 tvg-id="t-kanal-32" tvg-logo="https://www.kanal32.com.tr/images/site/logopng-141454-20240429.png" group-title="YEREL KANALLAR",KANAL 32
 https://edge2.taksimbilisim.com/kanal32/bant1/chunks.m3u8
-#EXTINF:-1 tvg-id="t-kanal-33" tvg-logo="https://www.kanal33.com.tr/images/logok.png" group-title="YEREL KANALLAR",KANAL 33
-https://edge2.taksimbilisim.com/kanal33/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="t-kanal-34" tvg-logo="https://kanal34.com/wp-content/uploads/2023/08/resim.png" group-title="YEREL KANALLAR",KANAL 34
 http://live.euromediacenter.com/kanal34/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-kanal-53" tvg-logo="https://aktifiptv.com/kanal53.png" group-title="YEREL KANALLAR",KANAL 53

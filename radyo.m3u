@@ -537,8 +537,6 @@ https://gece.radioca.st/stream
 https://kiyi.radioca.st/stream
 #EXTINF:-1 tvg-id="r-kiyi-turkce" group-title="RADYO",Kıyı Türkçe
 https://kiyiturk.radioca.st/stream
-#EXTINF:-1 tvg-id="r-klas-radio" group-title="RADYO",Klas Radio
-https://anadolu.liderhost.com.tr:10929/;
 #EXTINF:-1 tvg-id="r-koc-okulu-radyosu" group-title="RADYO",Koç Okulu Radyosu
 http://live.powerapp.com.tr/kocschool/mpeg/icecast.audio
 #EXTINF:-1 tvg-id="r-k-pop" group-title="RADYO",K-Pop
