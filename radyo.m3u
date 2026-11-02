@@ -795,8 +795,6 @@ http://dijimedya.radyotvonline.net/radiobeatbox
 https://anadolu.liderhost.com.tr:10913/;
 #EXTINF:-1 tvg-id="r-radio-hayal" group-title="RADYO",Radio Hayal
 https://anadolu.liderhost.com.tr/8058/stream
-#EXTINF:-1 tvg-id="r-radio-ibre" group-title="RADYO",Radio İbre
-https://anadolu.liderhost.com.tr:10902/;
 #EXTINF:-1 tvg-id="r-radio-life-kayseri" group-title="RADYO",Radio Life Kayseri
 https://yayin2.canliyayin.org:10990/;*.mp3
 #EXTINF:-1 tvg-id="r-radio-mydonose" group-title="RADYO",Radio Mydonose
@@ -1323,12 +1321,8 @@ https://live.radyo.in/8066/stream
 https://ssl22.radyotelekom.com/8084/stream
 #EXTINF:-1 tvg-id="r-sembol-fm" group-title="RADYO",Sembol FM
 http://radyosembol.ozelip.com:8022/;
-#EXTINF:-1 tvg-id="r-semerkand-radyo" group-title="RADYO",Semerkand Radyo
-https://canliyayin.semerkandradyo.com.tr/hls/Radyo/playlist.m3u8
 #EXTINF:-1 tvg-id="r-serhat-fm" group-title="RADYO",Serhat FM
 http://yayin.serhatfm.com:9150/stream
-#EXTINF:-1 tvg-id="r-ses-fm" group-title="RADYO",Ses FM
-https://yayin.sesfm.com.tr:8090/stream
 #EXTINF:-1 tvg-id="r-sesli-mobil-fm" group-title="RADYO",Sesli Mobil FM
 https://anadolu.liderhost.com.tr:10985/;
 #EXTINF:-1 tvg-id="r-sevda-fm" group-title="RADYO",Sevda FM

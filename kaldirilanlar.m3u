@@ -121,3 +121,13 @@ https://cdn4.yayin.com.tr/serhattv/tracks-v1a1/mono.m3u8
 https://edge2.taksimbilisim.com/kanal33/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="r-klas-radio" group-title="RADYO" liste="radyo" kaldirilma="2026-11-01" calisti="",Klas Radio
 https://anadolu.liderhost.com.tr:10929/;
+#EXTINF:-1 tvg-id="r-radio-ibre" group-title="RADYO" liste="radyo" kaldirilma="2026-11-02" calisti="",Radio İbre
+https://anadolu.liderhost.com.tr:10902/;
+#EXTINF:-1 tvg-id="r-semerkand-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-11-02" calisti="",Semerkand Radyo
+https://canliyayin.semerkandradyo.com.tr/hls/Radyo/playlist.m3u8
+#EXTINF:-1 tvg-id="r-ses-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-11-02" calisti="",Ses FM
+https://yayin.sesfm.com.tr:8090/stream
+#EXTINF:-1 tvg-id="t-sar-tv" tvg-logo="https://i.hizliresim.com/wesvkhly.png" group-title="BELGESEL KANALLARI" liste="tv" kaldirilma="2026-11-02" calisti="",SAR TV
+https://ip44.radyotelekomtv.com:3548/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="t-star-3" tvg-logo="https://ia600105.us.archive.org/14/items/teber-star/STAR3.png" group-title="BELGESEL KANALLARI" liste="tv" kaldirilma="2026-11-02" calisti="",STAR 3
+http://162.212.179.32/akamaissh101/ssh101/tilaf_tv3/chunks.m3u8
