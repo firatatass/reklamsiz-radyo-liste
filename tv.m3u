@@ -157,6 +157,8 @@ https://edge2.taksimbilisim.com/ftvturk/bant1/chunks.m3u8
 https://n2.burst.cdn.jetstre.am/session/450f4c594b612903b7d42d421fb93c21/sz/mceutv/wowza4/live/mc2/chunklist.m3u8
 #EXTINF:-1 tvg-id="t-kanal-7-avrupa" tvg-logo="https://i.imgur.com/wlfyj5l.png" group-title="AVRUPA KANALLARI",KANAL 7 AVRUPA
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 tvg-id="t-kardes-tv" tvg-logo="https://i.postimg.cc/wvr7sPnF/In-Shot-20251020-120311849.png" group-title="AVRUPA KANALLARI",KARDEŞ TV
+https://yayin30.haber100.com/live/kardestv/chunklist_w403767422.m3u8
 #EXTINF:-1 tvg-id="t-kanal-15" tvg-logo="https://kanal15.com.tr/assets/logo-D_1WVj9x.png" group-title="YEREL KANALLAR",KANAL 15
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/chunks.m3u8
 #EXTINF:-1 tvg-id="t-kanal-19" tvg-logo="https://i.postimg.cc/J44Jmqkh/images-removebg-preview-(2).png" group-title="YEREL KANALLAR",KANAL 19
