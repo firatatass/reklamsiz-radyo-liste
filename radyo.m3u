@@ -113,6 +113,8 @@ http://yayin1.canlitv.fun:8015/stream
 http://yayin.asymedya.com:8020/1;
 #EXTINF:-1 tvg-id="r-avrasya-turk" group-title="RADYO",Avrasya Türk
 https://sslyayin.netyayin.net:10909/;
+#EXTINF:-1 tvg-id="r-ay-fm-denge-radyosu" group-title="RADYO",Ay FM Denge Radyosu
+https://radyo.yayin.com.tr:5136/stream
 #EXTINF:-1 tvg-id="r-azadi-fm" group-title="RADYO",Azadi FM
 https://amed.ozelip.com/8040/;
 #EXTINF:-1 tvg-id="r-baba-radyo" group-title="RADYO",Baba Radyo
