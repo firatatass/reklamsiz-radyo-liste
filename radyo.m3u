@@ -823,8 +823,6 @@ http://yayin.netyayin.net:8008/;
 http://yayin1.yayindakiler.com:3050/;
 #EXTINF:-1 tvg-id="r-radyo-14" group-title="RADYO",Radyo 14
 https://radyo.yayin.com.tr:4104/
-#EXTINF:-1 tvg-id="r-radyo-18" group-title="RADYO",Radyo 18
-https://radyo1.radyo-dinle.tc:7007/;
 #EXTINF:-1 tvg-id="r-radyo-2000" group-title="RADYO",Radyo 2000
 http://stream.taksimbilisim.com:8004/;
 #EXTINF:-1 tvg-id="r-radyo-2000-erzincan" group-title="RADYO",Radyo 2000 Erzincan
