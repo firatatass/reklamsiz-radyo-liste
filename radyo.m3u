@@ -603,6 +603,8 @@ https://radyo1.radyo-dinle.tc:7033/;
 https://radyo.wlsrv.com:9082/;
 #EXTINF:-1 tvg-id="r-maras-sultan-radyo" group-title="RADYO",Maraş Sultan Radyo
 http://yayin.turkhosted.com:4949/;
+#EXTINF:-1 tvg-id="r-maraton-fm" group-title="RADYO",Maraton FM
+https://radyo.yayin.com.tr:5178/stream
 #EXTINF:-1 tvg-id="r-mavi-gece-fm" group-title="RADYO",Mavi Gece FM
 http://kesintisizyayin.com:1656/;?1597507265486.mp3
 #EXTINF:-1 tvg-id="r-mavi-radyo" group-title="RADYO",Mavi Radyo
@@ -805,6 +807,8 @@ https://radioone.ozelip.com/8162/stream
 https://stream.radiojar.com/wwcnb1ygdc9uv
 #EXTINF:-1 tvg-id="r-radio-syon-fm" group-title="RADYO",Radio Syon FM
 https://anadolu.liderhost.com.tr:10989/;
+#EXTINF:-1 tvg-id="r-radioport" group-title="RADYO",Radioport
+https://yayin.turkhosted.com/radioport/;
 #EXTINF:-1 tvg-id="r-radiotedu" group-title="RADYO",RadioTEDU
 https://stream.radiotedu.com/radio
 #EXTINF:-1 tvg-id="r-radiotedu-classic" group-title="RADYO",RadioTEDU Classic
@@ -971,6 +975,8 @@ https://radyo.yayindakiler.com:8018/;
 https://radyoduygusal.kesintisizyayin.com:9596/;*.nsv
 #EXTINF:-1 tvg-id="r-radyo-efkar" group-title="RADYO",Radyo Efkar
 http://anadolu.liderhost.com.tr:8048/;
+#EXTINF:-1 tvg-id="r-radyo-ege" group-title="RADYO",Radyo Ege
+https://istek.ozelip.com/radyoege
 #EXTINF:-1 tvg-id="r-radyo-egenin-sesi" group-title="RADYO",Radyo Egenin Sesi
 http://dijimedya.radyotvonline.net/radyoegeninsesi
 #EXTINF:-1 tvg-id="r-radyo-ekin" group-title="RADYO",Radyo Ekin
@@ -1109,6 +1115,8 @@ http://radyomega.ozelip.com:8210/;
 http://mega.netradyom.com:7900/;
 #EXTINF:-1 tvg-id="r-radyo-mezopotamya" group-title="RADYO",Radyo Mezopotamya
 https://anadolu.liderhost.com.tr/9404/stream
+#EXTINF:-1 tvg-id="r-radyo-mix" group-title="RADYO",Radyo Mix
+https://radyo.yayin.com.tr:4050/stream/2/
 #EXTINF:-1 tvg-id="r-radyo-moni" group-title="RADYO",Radyo Moni
 https://radyo.yayin.com.tr:4262/stream
 #EXTINF:-1 tvg-id="r-radyo-mood" group-title="RADYO",Radyo Mood
@@ -1153,6 +1161,8 @@ http://srv2.streaming-ingenierie.fr:8160/;
 https://s5.radio.co/s3ab6bdcb9/listen
 #EXTINF:-1 tvg-id="r-radyo-pause" group-title="RADYO",Radyo Pause
 https://radyopause.ozelip.com.tr:8040/
+#EXTINF:-1 tvg-id="r-radyo-remix" group-title="RADYO",Radyo Remix
+https://radyo.yayin.com.tr:5250/stream
 #EXTINF:-1 tvg-id="r-radyo-robert" group-title="RADYO",Radyo Robert
 https://live.powerapp.com.tr/robert/mpeg/icecast.audio
 #EXTINF:-1 tvg-id="r-radyo-sahil" group-title="RADYO",Radyo Sahil
@@ -1377,6 +1387,8 @@ http://radyo.yayin.com.tr:5940/stream
 https://radyoserver1.okeylisans.com:8082//;
 #EXTINF:-1 tvg-id="r-tempo-radyo-hatay" group-title="RADYO",Tempo Radyo Hatay
 https://sslyayin.netyayin.net/tempo/stream
+#EXTINF:-1 tvg-id="r-tempo-radyo-soke" group-title="RADYO",Tempo Radyo Söke
+https://radyo.yayin.com.tr:4312/stream
 #EXTINF:-1 tvg-id="r-tgrt-fm" group-title="RADYO",TGRT FM
 https://icecasttgrt.ihlasdigitalassets.com/tgrtfm
 #EXTINF:-1 tvg-id="r-tiyatro-radyosu" group-title="RADYO",Tiyatro Radyosu
