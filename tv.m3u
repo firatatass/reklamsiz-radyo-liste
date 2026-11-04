@@ -295,6 +295,8 @@ https://live.euromediacenter.com/tvmor/index.m3u8
 https://canli.kontv.com.tr/live/kontv.m3u8
 #EXTINF:-1 tvg-id="t-kardelen-tv" tvg-logo="https://i.postimg.cc/3RwxcCtT/unnamed-removebg-preview-(1).png" group-title="YEREL KANALLAR",KARDELEN TV
 https://edge2.taksimbilisim.com/kardelentv/bant1/chunks.m3u8?
+#EXTINF:-1 tvg-id="t-kanal-33" tvg-logo="https://www.kanal33.com.tr/images/logok.png" group-title="YEREL KANALLAR",KANAL 33
+https://edge2.taksimbilisim.com/kanal33/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="t-trt-cocuk" tvg-logo="https://i.postimg.cc/Bv7dc7Df/TRT-Cocuk-logo-(2021)-svg.webp" group-title="ÇOCUK KANALLARI",TRT ÇOCUK
 https://tv-trtcocuk.medya.trt.com.tr/master_360.m3u8
 #EXTINF:-1 tvg-id="t-trt-diyanet-cocuk" tvg-logo="https://i.postimg.cc/1tL2bgJJ/TRT-Diyanet-Cocuk-logo-svg.webp" group-title="ÇOCUK KANALLARI",TRT DİYANET ÇOCUK
