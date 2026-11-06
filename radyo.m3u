@@ -203,8 +203,6 @@ https://anadolu.liderhost.com.tr/8002/stream?/;stream.mp3
 http://yayin1.yayindakiler.com:3124/;
 #EXTINF:-1 tvg-id="r-capital-turk" group-title="RADYO",Capital Turk
 https://radyo1.radyo-dinle.tc/8210/stream
-#EXTINF:-1 tvg-id="r-cemre-fm" group-title="RADYO",Cemre FM
-https://anadolu.liderhost.com.tr/8170/stream
 #EXTINF:-1 tvg-id="r-cgtn-turk-radyo" group-title="RADYO",CGTN Türk Radyo
 https://criturk.radyotvonline.net/
 #EXTINF:-1 tvg-id="r-classicland" group-title="RADYO",Classicland
@@ -471,10 +469,6 @@ http://yayin1.canliyayin.org:8210/;
 http://46.20.7.101/stream/267/;
 #EXTINF:-1 tvg-id="r-istanbul-un-sesi" group-title="RADYO",İstanbul'un Sesi
 https://yayin.radyomadyo.com:9180/stream
-#EXTINF:-1 tvg-id="r-itu-klasik-music" group-title="RADYO",İTÜ Klasik Music
-http://160.75.86.29:8088/stream/5/
-#EXTINF:-1 tvg-id="r-itu-radyosu-rock" group-title="RADYO",İTÜ Radyosu Rock
-http://160.75.86.29:8088/stream/1/
 #EXTINF:-1 tvg-id="r-jest-fm" group-title="RADYO",Jest FM
 http://stream.turkiyeradyolari.com:8098/
 #EXTINF:-1 tvg-id="r-joy-fm" group-title="RADYO",Joy FM
