@@ -1015,7 +1015,7 @@ http://radyogencebay.com:8000/radio.mp3
 https://anadolu.liderhost.com.tr:10920/;
 #EXTINF:-1 tvg-id="r-radyo-gercek-samsun" group-title="RADYO",Radyo Gerçek Samsun
 https://radyogercek.ozelip.com:8368/;
-#EXTINF:-1 tvg-id="r-radyo-gol-2" group-title="RADYO",Radyo Gol 2
+#EXTINF:-1 tvg-id="r-radyo-gol-2" group-title="RADYO",Radyo Gol
 https://edge1.radyotvonline.net/shoutcast/play/radyogol
 #EXTINF:-1 tvg-id="r-radyo-gokceada" group-title="RADYO",Radyo Gökçeada
 https://radyo.yayin.com.tr:6179/;
