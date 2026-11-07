@@ -67,7 +67,7 @@ https://anadolu.liderhost.com.tr:10882/;
 https://sssx.radyosfer.com/radyocaglar/stream
 #EXTINF:-1 tvg-id="r-radyo-eflatun" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Eflatun
 https://radyo1.radyo-dinle.tc:7037/;
-#EXTINF:-1 tvg-id="r-radyo-engelsiz-erisim" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Engelsiz Erişim
+#EXTINF:-1 tvg-id="r-radyo-engelsiz-erisim" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="2026-11-07",Radyo Engelsiz Erişim
 https://radyo1.radyo-dinle.tc:7034/;
 #EXTINF:-1 tvg-id="r-radyo-girebi" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Girebi
 https://ssl123.ozelip.com:8066/;
@@ -105,7 +105,7 @@ https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8
 http://95.173.162.184:7350/;
 #EXTINF:-1 tvg-id="r-cesur-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-25" calisti="",Cesur FM
 http://yayin.cesurfm.com:8146/;
-#EXTINF:-1 tvg-id="r-radyo-uni-14-bolu-abant-izzet-baysal-uni" group-title="RADYO" liste="radyo" kaldirilma="2026-10-27" calisti="",Radyo Üni 14 (Bolu Abant İzzet Baysal Üni.)
+#EXTINF:-1 tvg-id="r-radyo-uni-14-bolu-abant-izzet-baysal-uni" group-title="RADYO" liste="radyo" kaldirilma="2026-10-27" calisti="2026-11-07",Radyo Üni 14 (Bolu Abant İzzet Baysal Üni.)
 http://baiburadyo.ibu.edu.tr:8000/yayin
 #EXTINF:-1 tvg-id="r-soft-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-27" calisti="",Soft Radyo
 https://radyo.softradyo.com/1140/stream
