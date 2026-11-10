@@ -435,8 +435,6 @@ http://yayin6.radyohizmeti.com:7050/;stream.mp3
 http://yayin.radyohayalfm.net:8050/;
 #EXTINF:-1 tvg-id="r-hayatmix" group-title="RADYO",Hayatmix
 http://hayatmix.net:80/;
-#EXTINF:-1 tvg-id="r-hayatmix-arabesk" group-title="RADYO",Hayatmix Arabesk
-https://radyo.yayin.com.tr:4078/mp3
 #EXTINF:-1 tvg-id="r-hayat-mix-slow" group-title="RADYO",Hayatmix Slow
 https://radyo.yayin.com.tr:4090/mp3
 #EXTINF:-1 tvg-id="r-heart-fm-103-4" group-title="RADYO",Heart FM 103.4
@@ -1321,8 +1319,6 @@ http://streaming.radionomy.com/jamendolounge
 https://radyo.yayin.com.tr:4058/
 #EXTINF:-1 tvg-id="r-secil-fm" group-title="RADYO",Seçil FM
 https://live.radyo.in/8066/stream
-#EXTINF:-1 tvg-id="r-self-fm" group-title="RADYO",Self FM
-https://ssl22.radyotelekom.com/8084/stream
 #EXTINF:-1 tvg-id="r-sembol-fm" group-title="RADYO",Sembol FM
 http://radyosembol.ozelip.com:8022/;
 #EXTINF:-1 tvg-id="r-serhat-fm" group-title="RADYO",Serhat FM

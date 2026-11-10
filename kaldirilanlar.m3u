@@ -131,3 +131,11 @@ https://anadolu.liderhost.com.tr/8170/stream
 http://160.75.86.29:8088/stream/5/
 #EXTINF:-1 tvg-id="r-itu-radyosu-rock" group-title="RADYO" liste="radyo" kaldirilma="2026-11-06" calisti="",İTÜ Radyosu Rock
 http://160.75.86.29:8088/stream/1/
+#EXTINF:-1 tvg-id="r-hayatmix-arabesk" group-title="RADYO" liste="radyo" kaldirilma="2026-11-10" calisti="",Hayatmix Arabesk
+https://radyo.yayin.com.tr:4078/mp3
+#EXTINF:-1 tvg-id="r-self-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-11-10" calisti="",Self FM
+https://ssl22.radyotelekom.com/8084/stream
+#EXTINF:-1 tvg-id="t-nt-spor" tvg-logo="https://i.postimg.cc/wvwkzJ6J/16466-removebg-preview.png" group-title="SPOR KANALLARI" liste="tv" kaldirilma="2026-11-10" calisti="",NT SPOR
+https://cdn-gzcspor.yayin.com.tr/gzcspor/gzcspor/chunklist_w1438643696.m3u8
+#EXTINF:-1 tvg-id="t-turkmeneli-tv" tvg-logo="https://i.postimg.cc/mrP9hhSs/logo-turk.webp" group-title="AVRUPA KANALLARI" liste="tv" kaldirilma="2026-11-10" calisti="",TÜRKMENELİ TV
+https://stream-135962.castr.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/tracks-v1a1/mono.ts.m3u8

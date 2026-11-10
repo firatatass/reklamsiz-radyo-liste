@@ -123,8 +123,6 @@ https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
 https://tjktv-live.tjk.org/tjktv_360p.m3u8
 #EXTINF:-1 tvg-id="t-tjk-tv-yurt-disi" tvg-logo="https://i.postimg.cc/J0GqdxsP/TJKTV-Logo-removebg-preview.png" group-title="SPOR KANALLARI",TJK TV YURT DIŞI
 https://tjktv-live.tjk.org/tjktv2/tjktv2_360p.m3u8
-#EXTINF:-1 tvg-id="t-nt-spor" tvg-logo="https://i.postimg.cc/wvwkzJ6J/16466-removebg-preview.png" group-title="SPOR KANALLARI",NT SPOR
-https://cdn-gzcspor.yayin.com.tr/gzcspor/gzcspor/chunklist_w1438643696.m3u8
 #EXTINF:-1 tvg-id="t-bric-satranc-tv" tvg-logo="https://i.postimg.cc/nMfQW6F4/channels4-profile-removebg-preview.png" group-title="SPOR KANALLARI",BRiC-SATRANC TV
 http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 tvg-id="t-turkmenistan-sport" tvg-logo="https://i.postimg.cc/qBL9Jn2T/Turkmenistan-Sport.webp" group-title="SPOR KANALLARI",TÜRKMENİSTAN SPORT
@@ -139,8 +137,6 @@ https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="t-trt-avaz" tvg-logo="https://i.postimg.cc/KcfYSxnm/TRT-Avaz-logo-(2009-2020).png" group-title="AVRUPA KANALLARI",TRT AVAZ
 https://tv-trtavaz.medya.trt.com.tr/master_360.m3u8
-#EXTINF:-1 tvg-id="t-turkmeneli-tv" tvg-logo="https://i.postimg.cc/mrP9hhSs/logo-turk.webp" group-title="AVRUPA KANALLARI",TÜRKMENELİ TV
-https://stream-135962.castr.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="t-kanal-avrupa" tvg-logo="https://kanalavrupa.tv/wp-content/uploads/2025/04/KanalAvrupaLogo.png" group-title="AVRUPA KANALLARI",KANAL AVRUPA
 https://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-isvicre-tv" tvg-logo="https://i.postimg.cc/9QdcMJz3/In-Shot-20260104-104846078.png" group-title="AVRUPA KANALLARI",İSVİÇRE TV
@@ -418,7 +414,7 @@ https://live.al-zahratv.com/live/playlist.m3u8
 #EXTINF:-1 tvg-id="t-ikra-tv" tvg-logo="https://ikratv.com/images/pir-muhammed-huseyin/ikrayayin.png" group-title="DİNİ KANALLAR",İKRA TV
 https://rtmp.ikratv.com/live/kanal1/v0/index.m3u8
 #EXTINF:-1 tvg-id="t-kudus-tv" tvg-logo="https://kudustv.com.tr/images/logo/logo.png?" group-title="DİNİ KANALLAR",KUDÜS TV
-https://yayin1.haber100.com/kudustvapp/kudustv/chunklist_w1714163689.m3u8
+https://yayin3.haber100.com/kudustvapp/kudustv/playlist.m3u8
 #EXTINF:-1 tvg-id="t-sat7-turk" tvg-logo="https://www.sat7turk.com/images/site/stu-logo.png" group-title="DİNİ KANALLAR",SAT7 TÜRK
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/chunks.m3u8
 #EXTINF:-1 tvg-id="t-brt-1" tvg-logo="https://i.postimg.cc/CLV1gcMQ/38361815-ico.png" group-title="KIBRIS KANALLARI",BRT 1
