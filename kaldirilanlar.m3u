@@ -65,9 +65,9 @@ https://anadolu.liderhost.com.tr:10874/;
 https://anadolu.liderhost.com.tr:10882/;
 #EXTINF:-1 tvg-id="r-radyo-caglar" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Çağlar
 https://sssx.radyosfer.com/radyocaglar/stream
-#EXTINF:-1 tvg-id="r-radyo-eflatun" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Eflatun
+#EXTINF:-1 tvg-id="r-radyo-eflatun" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="2026-11-10",Radyo Eflatun
 https://radyo1.radyo-dinle.tc:7037/;
-#EXTINF:-1 tvg-id="r-radyo-engelsiz-erisim" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Engelsiz Erişim
+#EXTINF:-1 tvg-id="r-radyo-engelsiz-erisim" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="2026-11-10",Radyo Engelsiz Erişim
 https://radyo1.radyo-dinle.tc:7034/;
 #EXTINF:-1 tvg-id="r-radyo-girebi" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Radyo Girebi
 https://ssl123.ozelip.com:8066/;
@@ -105,10 +105,8 @@ https://rd-trtradyohaber.medya.trt.com.tr/master.m3u8
 http://95.173.162.184:7350/;
 #EXTINF:-1 tvg-id="r-cesur-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-25" calisti="",Cesur FM
 http://yayin.cesurfm.com:8146/;
-#EXTINF:-1 tvg-id="r-radyo-uni-14-bolu-abant-izzet-baysal-uni" group-title="RADYO" liste="radyo" kaldirilma="2026-10-27" calisti="",Radyo Üni 14 (Bolu Abant İzzet Baysal Üni.)
+#EXTINF:-1 tvg-id="r-radyo-uni-14-bolu-abant-izzet-baysal-uni" group-title="RADYO" liste="radyo" kaldirilma="2026-10-27" calisti="2026-11-10",Radyo Üni 14 (Bolu Abant İzzet Baysal Üni.)
 http://baiburadyo.ibu.edu.tr:8000/yayin
-#EXTINF:-1 tvg-id="r-soft-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-27" calisti="2026-11-08",Soft Radyo
-https://radyo.softradyo.com/1140/stream
 #EXTINF:-1 tvg-id="t-anadolum-tv" tvg-logo="https://i.postimg.cc/pVsSmyTZ/images-removebg-preview-(9).png" group-title="DİNİ KANALLAR" liste="tv" kaldirilma="2026-10-30" calisti="",ANADOLUM TV
 https://cdn4.yayin.com.tr/anadolum/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-asf-tv" tvg-logo="https://i.postimg.cc/yNCQMZQB/372458-removebg-preview.png" group-title="DİNİ KANALLAR" liste="tv" kaldirilma="2026-10-30" calisti="",ASF TV
@@ -127,7 +125,7 @@ https://ip44.radyotelekomtv.com:3548/hybrid/play.m3u8
 http://162.212.179.32/akamaissh101/ssh101/tilaf_tv3/chunks.m3u8
 #EXTINF:-1 tvg-id="r-radyo-18" group-title="RADYO" liste="radyo" kaldirilma="2026-11-03" calisti="",Radyo 18
 https://radyo1.radyo-dinle.tc:7007/;
-#EXTINF:-1 tvg-id="r-cemre-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-11-06" calisti="",Cemre FM
+#EXTINF:-1 tvg-id="r-cemre-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-11-06" calisti="2026-11-10",Cemre FM
 https://anadolu.liderhost.com.tr/8170/stream
 #EXTINF:-1 tvg-id="r-itu-klasik-music" group-title="RADYO" liste="radyo" kaldirilma="2026-11-06" calisti="",İTÜ Klasik Music
 http://160.75.86.29:8088/stream/5/

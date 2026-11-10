@@ -1351,6 +1351,8 @@ http://dinle.slowkaradenizfm.com:9578/;
 https://anadolu.liderhost.com.tr:10973/;
 #EXTINF:-1 tvg-id="r-slow-turk" group-title="RADYO",Slow Türk
 https://radyo.duhnet.tv/ak_dtvh_slowturk
+#EXTINF:-1 tvg-id="r-soft-radyo" group-title="RADYO",Soft Radyo
+https://radyo.softradyo.com/1140/stream
 #EXTINF:-1 tvg-id="r-sole-radyo" group-title="RADYO",Sole Radyo
 https://playerservices.streamtheworld.com/api/livestream-redirect/SOLE128AAC.aac
 #EXTINF:-1 tvg-id="r-sputnik-turkiye" group-title="RADYO",Sputnik Türkiye
