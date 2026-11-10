@@ -15,6 +15,8 @@ http://yayin.yayindakiler.com:3040/;stream.mp3
 https://radyo.yayin.com.tr:5714/stream
 #EXTINF:-1 tvg-id="r-a-haber-radyo" group-title="RADYO",A Haber Radyo
 https://trkvz-radyolar.ercdn.net/ahaberradyo/playlist.m3u8
+#EXTINF:-1 tvg-id="r-akan-fm" group-title="RADYO",Akan FM
+https://anadolu.liderhost.com.tr/8154/stream/
 #EXTINF:-1 tvg-id="r-akdeniz-uni-fm" group-title="RADYO",Akdeniz Üni FM
 https://listen.powerapp.com.tr/unifm/mpeg/icecast.audio
 #EXTINF:-1 tvg-id="r-alem-fm-atmosfer" group-title="RADYO",Alem FM Atmosfer
@@ -699,14 +701,32 @@ http://yayin2.yayindakiler.com:4064/;
 https://stream.netradyom.com/radio/8010/radio.mp3
 #EXTINF:-1 tvg-id="r-ozel-fm" group-title="RADYO",Özel FM
 https://ozelfm.80.yayin.com.tr/;stream
+#EXTINF:-1 tvg-id="r-pal-akustik" group-title="RADYO",Pal Akustik
+https://ssldyg.radyotvonline.com/live/palakustik.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-pal-alaturka" group-title="RADYO",Pal Alaturka
+https://ssldyg.radyotvonline.com/live/palalaturka.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-pal-club" group-title="RADYO",Pal Club
+https://ssldyg.radyotvonline.com/live/palai.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-pal-doga" group-title="RADYO",Pal Doğa
 http://shoutcast.radyogrup.com:1040/;
+#EXTINF:-1 tvg-id="r-pal-efsaneler" group-title="RADYO",Pal Efsaneler
+https://ssldyg.radyotvonline.com/live/palefsane.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-pal-fm" group-title="RADYO",Pal FM
 http://shoutcast.radyogrup.com:1030/;
+#EXTINF:-1 tvg-id="r-pal-legend" group-title="RADYO",Pal Legend
+https://ssldyg.radyotvonline.com/live/pallegend.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-pal-nostalji" group-title="RADYO",Pal Nostalji
 http://shoutcast.radyogrup.com:1010/;
+#EXTINF:-1 tvg-id="r-pal-orient" group-title="RADYO",Pal Orient
+https://ssldyg.radyotvonline.com/live/palorient.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-pal-rap" group-title="RADYO",Pal Rap
+https://ssldyg.radyotvonline.com/live/palrap.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-pal-slow" group-title="RADYO",Pal Slow
+https://ssldyg.radyotvonline.com/live/palslow.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-pal-station" group-title="RADYO",Pal Station
 http://shoutcast.radyogrup.com:1020/;
+#EXTINF:-1 tvg-id="r-palbesk" group-title="RADYO",PalBesk
+https://ssldyg.radyotvonline.com/live/palbesk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-park-fm" group-title="RADYO",Park FM
 http://yayin.netradyom.com:8050/parkfm/;
 #EXTINF:-1 tvg-id="r-pazarcik-fm" group-title="RADYO",Pazarcık FM
@@ -725,6 +745,8 @@ https://radyo1.radyo-dinle.tc/playdanceradio/stream
 http://live.playfm.com.tr:9050/;
 #EXTINF:-1 tvg-id="r-podnet-radyo" group-title="RADYO",Podnet Radyo
 https://radyo1.radyo-dinle.tc:7046/;
+#EXTINF:-1 tvg-id="r-polis-radyosu" group-title="RADYO",Polis Radyosu
+https://m.egm.gov.tr:8093/;
 #EXTINF:-1 tvg-id="r-pop-90" group-title="RADYO",Pop 90
 http://23613.live.streamtheworld.com/POP90AAC_SC
 #EXTINF:-1 tvg-id="r-popbesk" group-title="RADYO",Popbesk
@@ -1239,6 +1261,16 @@ https://stream2.rtvtakip.com:7005/;
 http://46.20.3.231/;
 #EXTINF:-1 tvg-id="r-radyo-viva-2" group-title="RADYO",Radyo Viva 2
 https://edge1.radyotvonline.net/shoutcast/play/radyoviva
+#EXTINF:-1 tvg-id="r-radyo-viva-club" group-title="RADYO",Radyo Viva Club
+https://listen.radyotvonline.net/hls/play/viva_club.m3u8
+#EXTINF:-1 tvg-id="r-radyo-viva-efkar" group-title="RADYO",Radyo Viva Efkar
+https://listen.radyotvonline.net/hls/play/viva_efkar.m3u8
+#EXTINF:-1 tvg-id="r-radyo-viva-pop" group-title="RADYO",Radyo Viva Pop
+https://listen.radyotvonline.net/hls/play/viva_pop.m3u8
+#EXTINF:-1 tvg-id="r-radyo-viva-turca" group-title="RADYO",Radyo Viva Turca
+https://listen.radyotvonline.net/hls/play/viva_turca.m3u8
+#EXTINF:-1 tvg-id="r-radyo-viva-turku" group-title="RADYO",Radyo Viva Türkü
+https://listen.radyotvonline.net/hls/play/viva_turku.m3u8
 #EXTINF:-1 tvg-id="r-radyo-vizyon" group-title="RADYO",Radyo Vizyon
 http://yayin.netradyom.com:8010/radyovizyon
 #EXTINF:-1 tvg-id="r-radyo-vizyon-ankara" group-title="RADYO",Radyo Vizyon Ankara
@@ -1339,6 +1371,16 @@ https://sslyayin.netyayin.net/8024/stream
 https://radyo1.radyo-dinle.tc:7018/;
 #EXTINF:-1 tvg-id="r-show-radyo" group-title="RADYO",Show Radyo
 http://46.20.3.229/;
+#EXTINF:-1 tvg-id="r-show-radyo-90-lar" group-title="RADYO",Show Radyo 90'lar
+https://listen.radyotvonline.net/hls/play/show_90lar.m3u8
+#EXTINF:-1 tvg-id="r-show-radyo-akustik" group-title="RADYO",Show Radyo Akustik
+https://listen.radyotvonline.net/hls/play/show_akustik.m3u8
+#EXTINF:-1 tvg-id="r-show-radyo-eller-havaya" group-title="RADYO",Show Radyo Eller Havaya
+https://listen.radyotvonline.net/hls/play/show_ellerhavaya.m3u8
+#EXTINF:-1 tvg-id="r-show-radyo-slow" group-title="RADYO",Show Radyo Slow
+https://listen.radyotvonline.net/hls/play/show_slow.m3u8
+#EXTINF:-1 tvg-id="r-show-radyo-trend" group-title="RADYO",Show Radyo Trend
+https://listen.radyotvonline.net/hls/play/show_trend.m3u8
 #EXTINF:-1 tvg-id="r-sivas-fm" group-title="RADYO",Sivas FM
 http://yayin2.canliyayin.org:8180/;
 #EXTINF:-1 tvg-id="r-slow-hits" group-title="RADYO",Slow Hits
