@@ -207,6 +207,8 @@ https://ssl22.radyotelekom.com:8360/;
 http://yayin1.yayindakiler.com:3124/;
 #EXTINF:-1 tvg-id="r-capital-turk" group-title="RADYO",Capital Turk
 https://radyo1.radyo-dinle.tc/8210/stream
+#EXTINF:-1 tvg-id="r-cemre-fm" group-title="RADYO",Cemre FM
+https://anadolu.liderhost.com.tr/8170/stream
 #EXTINF:-1 tvg-id="r-cgtn-turk-radyo" group-title="RADYO",CGTN Türk Radyo
 https://criturk.radyotvonline.net/
 #EXTINF:-1 tvg-id="r-classicland" group-title="RADYO",Classicland
