@@ -199,6 +199,8 @@ http://yorefm.radyotvyayini.com:9420/;
 https://radyo.bursadabugun.com/stream
 #EXTINF:-1 tvg-id="r-cagri-fm-diyarbakir" group-title="RADYO",Çağrı FM Diyarbakır
 https://anadolu.liderhost.com.tr/8002/stream?/;stream.mp3
+#EXTINF:-1 tvg-id="r-can-radyo" group-title="RADYO",Can Radyo
+https://ssl22.radyotelekom.com:8360/;
 #EXTINF:-1 tvg-id="r-can-radyo-izmir" group-title="RADYO",Can Radyo İzmir
 http://yayin1.yayindakiler.com:3124/;
 #EXTINF:-1 tvg-id="r-capital-turk" group-title="RADYO",Capital Turk
@@ -1273,6 +1275,8 @@ http://yayin.canliyayin.org:8232/;
 https://sslyayin.netyayin.net/radyozergan/;
 #EXTINF:-1 tvg-id="r-radyo-zile-fm" group-title="RADYO",Radyo Zile FM
 https://radyozile.ozelip.com/8114/stream
+#EXTINF:-1 tvg-id="r-radyo06" group-title="RADYO",Radyo06
+https://stream.netradyom.com/listen/radyo06/radio.mp3
 #EXTINF:-1 tvg-id="r-raks-fm" group-title="RADYO",Raks FM
 https://sslyayin.radyoyayini.com:7092//;
 #EXTINF:-1 tvg-id="r-rap-home" group-title="RADYO",Rap Home

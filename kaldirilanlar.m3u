@@ -19,8 +19,6 @@ http://live4.radyotvonline.com:9400/;
 http://95.173.161.131:9832/;
 #EXTINF:-1 tvg-id="r-burhaniye-ses-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Burhaniye Ses Radyo
 http://95.173.161.133:9350/;
-#EXTINF:-1 tvg-id="r-can-radyo" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Can Radyo
-http://canradyo.kesintisizyayin.com:3838/;
 #EXTINF:-1 tvg-id="r-cine-dost-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Çine Dost FM
 https://anadolu.liderhost.com.tr:10893/;
 #EXTINF:-1 tvg-id="r-essex-turkish-radio" group-title="RADYO" liste="radyo" kaldirilma="2026-10-19" calisti="",Essex Turkish Radio
