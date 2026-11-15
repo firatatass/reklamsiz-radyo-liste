@@ -1361,6 +1361,8 @@ https://live.radyo.in/8066/stream
 http://radyosembol.ozelip.com:8022/;
 #EXTINF:-1 tvg-id="r-serhat-fm" group-title="RADYO",Serhat FM
 http://yayin.serhatfm.com:9150/stream
+#EXTINF:-1 tvg-id="r-ses-fm" group-title="RADYO",Ses FM
+https://yayin.sesfm.com.tr:8090/stream
 #EXTINF:-1 tvg-id="r-sesli-mobil-fm" group-title="RADYO",Sesli Mobil FM
 https://anadolu.liderhost.com.tr:10985/;
 #EXTINF:-1 tvg-id="r-sevda-fm" group-title="RADYO",Sevda FM
