@@ -341,8 +341,6 @@ https://live.radyositesihazir.com/1025/stream/
 https://farkradyo.ozelip.com.tr:8058/stream
 #EXTINF:-1 tvg-id="r-fenomen" group-title="RADYO",Fenomen
 https://live.radyofenomen.com/fenomen/128/icecast.audio
-#EXTINF:-1 tvg-id="r-fenomen-akustik" group-title="RADYO",Fenomen Akustik
-https://live.radyofenomen.com/fenomenakustik/128/icecast.audio
 #EXTINF:-1 tvg-id="r-fenomen-clubbin" group-title="RADYO",Fenomen Clubbin
 https://live.radyofenomen.com/fenomenclubbin/128/icecast.audio
 #EXTINF:-1 tvg-id="r-fenomen-dans" group-title="RADYO",Fenomen Dans
@@ -647,8 +645,6 @@ https://27873.live.streamtheworld.com/METRO_FM128AAC.aac
 https://anadolu.liderhost.com.tr:10965/;
 #EXTINF:-1 tvg-id="r-mio-radio" group-title="RADYO",Mio Radio
 https://s2.myradiostream.com/13662/;?type=http
-#EXTINF:-1 tvg-id="r-mirac-fm" group-title="RADYO",Miraç FM
-https://anadolu.liderhost.com.tr:10942/;
 #EXTINF:-1 tvg-id="r-mix-a-mix-fm" group-title="RADYO",Mix A Mix FM
 https://radyo.yayin.com.tr:5998/stream/;
 #EXTINF:-1 tvg-id="r-moda-fm" group-title="RADYO",Moda FM
@@ -770,7 +766,7 @@ https://listen.powerapp.com.tr/powerdeep/abr/powerdeep/128/playlist.m3u8
 #EXTINF:-1 tvg-id="r-power-earth" group-title="RADYO",Power Earth
 http://listen.powerapp.com.tr/powerearth/abr/playlist.m3u8
 #EXTINF:-1 tvg-id="r-power-fm" group-title="RADYO",Power FM
-https://listen.powerapp.com.tr/powerfm/abr/powerfm/128/playlist.m3u8
+https://live.powerapp.com.tr/powerfmadver/128/playlist.m3u8
 #EXTINF:-1 tvg-id="r-power-gold" group-title="RADYO",Power Gold
 https://live.powerapp.com.tr/powergold/abr/powergold/128/playlist.m3u8
 #EXTINF:-1 tvg-id="r-power-greece" group-title="RADYO",Power Greece
@@ -971,8 +967,6 @@ https://moondigitaledge2.radyotvonline.net/radyod/playlist.m3u8
 https://radyodejavu.80.yayin.com.tr/;
 #EXTINF:-1 tvg-id="r-radyo-davet" group-title="RADYO",Radyo Davet
 http://stream.radiojar.com/ggu0fd6qu2wtv.mp3
-#EXTINF:-1 tvg-id="r-radyo-delal" group-title="RADYO",Radyo Delal
-https://wowza1.radyotvonline.com/idilpr/radyodelal.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-radyo-delta" group-title="RADYO",Radyo Delta
 https://anadolu.liderhost.com.tr:10954/;
 #EXTINF:-1 tvg-id="r-radyo-dingil" group-title="RADYO",Radyo Dingil
@@ -1396,7 +1390,7 @@ http://dinle.slowkaradenizfm.com:9578/;
 #EXTINF:-1 tvg-id="r-slow-radyo" group-title="RADYO",Slow Radyo
 https://anadolu.liderhost.com.tr:10973/;
 #EXTINF:-1 tvg-id="r-slow-turk" group-title="RADYO",Slow Türk
-https://radyo.duhnet.tv/ak_dtvh_slowturk
+https://stream.radyotvonline.net/hls/play/slowturk.m3u8
 #EXTINF:-1 tvg-id="r-soft-radyo" group-title="RADYO",Soft Radyo
 https://radyo.softradyo.com/1140/stream
 #EXTINF:-1 tvg-id="r-sole-radyo" group-title="RADYO",Sole Radyo

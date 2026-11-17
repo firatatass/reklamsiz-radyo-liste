@@ -153,8 +153,6 @@ https://edge2.taksimbilisim.com/ftvturk/bant1/chunks.m3u8
 https://n2.burst.cdn.jetstre.am/session/450f4c594b612903b7d42d421fb93c21/sz/mceutv/wowza4/live/mc2/chunklist.m3u8
 #EXTINF:-1 tvg-id="t-kanal-7-avrupa" tvg-logo="https://i.imgur.com/wlfyj5l.png" group-title="AVRUPA KANALLARI",KANAL 7 AVRUPA
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-#EXTINF:-1 tvg-id="t-kardes-tv" tvg-logo="https://i.postimg.cc/wvr7sPnF/In-Shot-20251020-120311849.png" group-title="AVRUPA KANALLARI",KARDEŞ TV
-https://yayin30.haber100.com/live/kardestv/chunklist_w403767422.m3u8
 #EXTINF:-1 tvg-id="t-kanal-15" tvg-logo="https://kanal15.com.tr/assets/logo-D_1WVj9x.png" group-title="YEREL KANALLAR",KANAL 15
 https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/chunks.m3u8
 #EXTINF:-1 tvg-id="t-kanal-19" tvg-logo="https://i.postimg.cc/J44Jmqkh/images-removebg-preview-(2).png" group-title="YEREL KANALLAR",KANAL 19
@@ -281,8 +279,6 @@ https://edge.taksimbilisim.com/frttv/bant1/chunks.m3u8
 https://cdn1-derintv.yayin.com.tr/derintv/derintv/chunklist_w1486394141_b1796000.m3u8
 #EXTINF:-1 tvg-id="t-obb-tv" tvg-logo="https://obbtv.com/images/logo-beyazrenkli.png" group-title="YEREL KANALLAR",OBB TV
 https://api-tv33.yayin.com.tr/ordubeltv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="t-deniz-tv" tvg-logo="https://i.postimg.cc/5twYYxV2/38332824-ico.png" group-title="YEREL KANALLAR",DENİZ TV
-http://162.212.179.32/akamaissh101/ssh101/denizradyotv/chunks.m3u8
 #EXTINF:-1 tvg-id="t-karadeniz-tv" tvg-logo="https://i.postimg.cc/sxvdKC0y/37980733-ico.png" group-title="YEREL KANALLAR",KARADENİZ TV
 https://panel.5gtvhosting.com:2020/hls/karadeniztv/karadeniztv.m3u8
 #EXTINF:-1 tvg-id="t-tv-mor" tvg-logo="https://i.postimg.cc/Z5jZZqRb/In-Shot-20251005-230300558.png" group-title="YEREL KANALLAR",TV MOR
@@ -365,8 +361,6 @@ https://cdn1-ercistv.yayin.com.tr/ercistv/amlst:ercistv/tracks-v1a1/mono.m3u8
 https://cdn-4turkpop.yayin.com.tr/4turkpop/4turkpop/playlist.m3u8
 #EXTINF:-1 tvg-id="t-te-tv" tvg-logo="https://i.postimg.cc/mgGcd6t5/37813414-ico.png" group-title="MÜZİK KANALLARI",TE TV
 https://host.onlineradyotv.net:8081/tetv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="t-yansima-muzik-tv" tvg-logo="https://i.postimg.cc/nLYLWpNZ/38683545-ico.png" group-title="MÜZİK KANALLARI",YANSIMA MÜZİK TV
-http://162.212.179.32/akamaissh101/ssh101/ymmusictv/chunks.m3u8
 #EXTINF:-1 tvg-id="t-su-tv" tvg-logo="https://i.postimg.cc/RZWRkPB9/37708269-ico.png" group-title="MÜZİK KANALLARI",SU TV
 https://live.artidijitalmedya.com/artidijital_sutv/sutv/chunks.m3u8
 #EXTINF:-1 tvg-id="t-ritim-tv" tvg-logo="https://i.postimg.cc/DzzJd0Qr/38904549-ico.png9UGgFInzE4KHqOcjJQHO2EWKKhnBlvuTaHAqn1nhhVoZF7MJYaxckogLRmhGotCpmm2uV0I1WeoP-xEILtOrcF12Kg0AoHQ1xY1ua_eODHWt77RCUQPBNgVQ&h=AUBp3I6aimqrbJmDE54f07EAcVCg54YluGN3wdUTEn9UGgFInzE4KHqOcjJQHO2EWKKhnBlvuTaHAqn1nhhVoZF7MJYaxckogLRmhGotCpmm2uV0I1WeoP-xEILtOrcF12Kg0AoHQ1xY1ua_eODHWt77RCUQPBNgVQ&h=AUBp3I6aimqrbJmDE54f07EAcVCg54YluGN3wdUTEn9UGgFInzE4KHqOcjJQHO2EWKKhnBlvuTaHAqn1nhhVoZF7MJYaxckogLRmhGotCpmm2uV0I1WeoP-xEILtOrcF12Kg0AoHQ1xY1ua_eODHWt77RCUQPBNgVQ" group-title="MÜZİK KANALLARI",RİTİM TV

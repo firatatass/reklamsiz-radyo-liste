@@ -133,3 +133,15 @@ https://ssl22.radyotelekom.com/8084/stream
 https://cdn-gzcspor.yayin.com.tr/gzcspor/gzcspor/chunklist_w1438643696.m3u8
 #EXTINF:-1 tvg-id="t-turkmeneli-tv" tvg-logo="https://i.postimg.cc/mrP9hhSs/logo-turk.webp" group-title="AVRUPA KANALLARI" liste="tv" kaldirilma="2026-11-10" calisti="",TÜRKMENELİ TV
 https://stream-135962.castr.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="r-fenomen-akustik" group-title="RADYO" liste="radyo" kaldirilma="2026-11-17" calisti="",Fenomen Akustik
+https://live.radyofenomen.com/fenomenakustik/128/icecast.audio
+#EXTINF:-1 tvg-id="r-mirac-fm" group-title="RADYO" liste="radyo" kaldirilma="2026-11-17" calisti="",Miraç FM
+https://anadolu.liderhost.com.tr:10942/;
+#EXTINF:-1 tvg-id="r-radyo-delal" group-title="RADYO" liste="radyo" kaldirilma="2026-11-17" calisti="",Radyo Delal
+https://wowza1.radyotvonline.com/idilpr/radyodelal.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="t-kardes-tv" tvg-logo="https://i.postimg.cc/wvr7sPnF/In-Shot-20251020-120311849.png" group-title="AVRUPA KANALLARI" liste="tv" kaldirilma="2026-11-17" calisti="",KARDEŞ TV
+https://yayin30.haber100.com/live/kardestv/chunklist_w403767422.m3u8
+#EXTINF:-1 tvg-id="t-deniz-tv" tvg-logo="https://i.postimg.cc/5twYYxV2/38332824-ico.png" group-title="YEREL KANALLAR" liste="tv" kaldirilma="2026-11-17" calisti="",DENİZ TV
+http://162.212.179.32/akamaissh101/ssh101/denizradyotv/chunks.m3u8
+#EXTINF:-1 tvg-id="t-yansima-muzik-tv" tvg-logo="https://i.postimg.cc/nLYLWpNZ/38683545-ico.png" group-title="MÜZİK KANALLARI" liste="tv" kaldirilma="2026-11-17" calisti="",YANSIMA MÜZİK TV
+http://162.212.179.32/akamaissh101/ssh101/ymmusictv/chunks.m3u8
