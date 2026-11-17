@@ -505,6 +505,8 @@ https://yayin.kalpfm.com:8080/stream
 http://193.255.97.57/;
 #EXTINF:-1 tvg-id="r-kampus-radyo-kastamonu-uni" group-title="RADYO",Kampüs Radyo (Kastamonu Üni.)
 https://radyoserver1.okeylisans.com/8044/stream
+#EXTINF:-1 tvg-id="r-kapadokya-fm" group-title="RADYO",Kapadokya FM
+https://stream.turkiyeradyolari.com/9348/stream
 #EXTINF:-1 tvg-id="r-karacabey-fm" group-title="RADYO",Karacabey FM
 https://radyob.ozelip.com.tr/8042/stream
 #EXTINF:-1 tvg-id="r-karadeniz-akustik" group-title="RADYO",Karadeniz Akustik
@@ -535,6 +537,8 @@ https://anadolu.liderhost.com.tr:10906/;
 https://anadolu.liderhost.com.tr/8164/stream
 #EXTINF:-1 tvg-id="r-keskin-fm" group-title="RADYO",Keskin FM
 http://www.keskinfm.com:1021/;
+#EXTINF:-1 tvg-id="r-keyf-fm" group-title="RADYO",Keyf FM
+https://streamtr.turkiyeradyolari.com/15188/;
 #EXTINF:-1 tvg-id="r-kiss-speed-up" group-title="RADYO",Kiss Speed Up
 https://dijimedya.radyotvonline.net/speedup
 #EXTINF:-1 tvg-id="r-kissturk" group-title="RADYO",KissTürk
