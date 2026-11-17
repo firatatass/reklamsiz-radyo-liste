@@ -875,6 +875,8 @@ https://yayin.turkhosted.com/6012/stream
 http://yayin1.yayindakiler.com:3192/;
 #EXTINF:-1 tvg-id="r-radyo-38" group-title="RADYO",Radyo 38
 https://anadolu.liderhost.com.tr:10892/;
+#EXTINF:-1 tvg-id="r-radyo-40" group-title="RADYO",Radyo 40 Kırşehir
+https://anadolu.liderhost.com.tr/8440/stream/
 #EXTINF:-1 tvg-id="r-radyo-42-fm" group-title="RADYO",Radyo 42 FM
 https://a8.asurahosting.com/hls/radyo_42_fm_medya_konya_pr_music/live.m3u8
 #EXTINF:-1 tvg-id="r-radyo-44" group-title="RADYO",Radyo 44
