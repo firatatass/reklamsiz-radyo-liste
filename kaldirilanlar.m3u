@@ -145,3 +145,5 @@ https://yayin30.haber100.com/live/kardestv/chunklist_w403767422.m3u8
 http://162.212.179.32/akamaissh101/ssh101/denizradyotv/chunks.m3u8
 #EXTINF:-1 tvg-id="t-yansima-muzik-tv" tvg-logo="https://i.postimg.cc/nLYLWpNZ/38683545-ico.png" group-title="MÜZİK KANALLARI" liste="tv" kaldirilma="2026-11-17" calisti="",YANSIMA MÜZİK TV
 http://162.212.179.32/akamaissh101/ssh101/ymmusictv/chunks.m3u8
+#EXTINF:-1 tvg-id="t-tjk-tv-yurt-disi" tvg-logo="https://i.postimg.cc/J0GqdxsP/TJKTV-Logo-removebg-preview.png" group-title="SPOR KANALLARI" liste="tv" kaldirilma="2026-11-17" calisti="",TJK TV YURT DIŞI
+https://tjktv-live.tjk.org/tjktv2/tjktv2_360p.m3u8

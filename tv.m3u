@@ -121,8 +121,6 @@ https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&dfp_paln=AQzzBGQEBm1BO0E
 https://duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8
 #EXTINF:-1 tvg-id="t-yaristayiz-tv" tvg-logo="https://r.resimlink.com/1dOGS5D_iA4Z.png" group-title="SPOR KANALLARI",YARIŞTAYIZ TV
 https://tjktv-live.tjk.org/tjktv_360p.m3u8
-#EXTINF:-1 tvg-id="t-tjk-tv-yurt-disi" tvg-logo="https://i.postimg.cc/J0GqdxsP/TJKTV-Logo-removebg-preview.png" group-title="SPOR KANALLARI",TJK TV YURT DIŞI
-https://tjktv-live.tjk.org/tjktv2/tjktv2_360p.m3u8
 #EXTINF:-1 tvg-id="t-bric-satranc-tv" tvg-logo="https://i.postimg.cc/nMfQW6F4/channels4-profile-removebg-preview.png" group-title="SPOR KANALLARI",BRiC-SATRANC TV
 http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 tvg-id="t-turkmenistan-sport" tvg-logo="https://i.postimg.cc/qBL9Jn2T/Turkmenistan-Sport.webp" group-title="SPOR KANALLARI",TÜRKMENİSTAN SPORT
