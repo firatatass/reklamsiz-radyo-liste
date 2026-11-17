@@ -467,6 +467,18 @@ https://stream.netradyom.com/listen/imajpop/radio.mp3
 https://radyo.medyahost.com.tr/8034/stream
 #EXTINF:-1 tvg-id="r-isra-fm" group-title="RADYO",İsra FM
 http://yayin1.canliyayin.org:8210/;
+#EXTINF:-1 tvg-id="r-istanbul-fm" group-title="RADYO",İstanbul FM
+https://yayin.istanbulfm.com.tr/istanbulfm/playlist.m3u8
+#EXTINF:-1 tvg-id="r-istanbul-fm-akustik" group-title="RADYO",İstanbul FM Akustik
+https://yayin.istanbulfm.com.tr/istanbulfm/akustik/playlist.m3u8
+#EXTINF:-1 tvg-id="r-istanbul-fm-alaturka" group-title="RADYO",İstanbul FM Alaturka
+https://yayin.istanbulfm.com.tr/istanbulfm/alaturka/playlist.m3u8
+#EXTINF:-1 tvg-id="r-istanbul-fm-fantezi" group-title="RADYO",İstanbul FM Fantezi
+https://yayin.istanbulfm.com.tr/istanbulfm/fantezi/playlist.m3u8
+#EXTINF:-1 tvg-id="r-istanbul-fm-nostalji" group-title="RADYO",İstanbul FM Nostalji
+https://yayin.istanbulfm.com.tr/istanbulfm/nostalji/playlist.m3u8
+#EXTINF:-1 tvg-id="r-istanbul-fm-slow" group-title="RADYO",İstanbul FM Slow
+https://yayin.istanbulfm.com.tr/istanbulfm/slow/playlist.m3u8
 #EXTINF:-1 tvg-id="r-istanbul-kent-fm" group-title="RADYO",İstanbul Kent FM
 http://46.20.7.101/stream/267/;
 #EXTINF:-1 tvg-id="r-istanbul-un-sesi" group-title="RADYO",İstanbul'un Sesi
@@ -677,6 +689,8 @@ https://ssldyg2.radyotvonline.com/live/yabancidance.stream/playlist.m3u8
 https://ssldyg2.radyotvonline.com/live/numberonefm.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-number-1-slow" group-title="RADYO",Number 1 Slow
 https://ssldyg2.radyotvonline.com/live/yabancislow.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="r-number-1-turk" group-title="RADYO",Number 1 Türk
+https://ssldyg2.radyotvonline.com/live/numberoneturk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-number-1-turk-90-lar" group-title="RADYO",Number 1 Türk 90'lar
 https://ssldyg2.radyotvonline.com/live/turkce90lar.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="r-number-1-turk-damar" group-title="RADYO",Number 1 Türk Damar
@@ -945,6 +959,8 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/BASKA.mp3
 https://radyo.kanalb.tr/1042
 #EXTINF:-1 tvg-id="r-radyo-bilkent" group-title="RADYO",Radyo Bilkent
 https://stream.netradyom.com/listen/radyobilkent/radio.mp3
+#EXTINF:-1 tvg-id="r-radyo-bir" group-title="RADYO",Radyo Bir
+https://canli.radyobir.com.tr:7002/;stream/1
 #EXTINF:-1 tvg-id="r-radyo-bizim-fm" group-title="RADYO",Radyo Bizim FM
 https://radyoserver60.okeylisans.com:14000/9212/;/;type=mp3
 #EXTINF:-1 tvg-id="r-radyo-boombox" group-title="RADYO",Radyo Boombox
