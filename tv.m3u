@@ -129,6 +129,8 @@ https://alpha.tv.online.tm/hls/ch004.m3u8
 https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
 #EXTINF:-1 tvg-id="t-tjk-tv" tvg-logo="https://i.ibb.co/s9wjrBVj/images-2.jpg" group-title="SPOR KANALLARI",TJK TV
 https://tjktv-live.tjk.org/tjktv.m3u8
+#EXTINF:-1 tvg-id="t-nt-spor" tvg-logo="https://i.postimg.cc/wvwkzJ6J/16466-removebg-preview.png" group-title="SPOR KANALLARI",NT SPOR
+https://cdn-gzcspor.yayin.com.tr/gzcspor/gzcspor/chunklist_w1438643696.m3u8
 #EXTINF:-1 tvg-id="t-euro-d" tvg-logo="https://i.postimg.cc/L53YGPmM/logo-v5.png" group-title="AVRUPA KANALLARI",EURO D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 #EXTINF:-1 tvg-id="t-trt-turk" tvg-logo="https://i.postimg.cc/j2xdwFrb/TRT-Turk-logosu.png" group-title="AVRUPA KANALLARI",TRT TÜRK
