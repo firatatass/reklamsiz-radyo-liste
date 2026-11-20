@@ -463,6 +463,8 @@ https://moondigitaledge.radyotvonline.net/houseland/playlist.m3u8
 http://yayin2.yayindakiler.com:4158/;
 #EXTINF:-1 tvg-id="r-ihya-fm" group-title="RADYO",İhya FM
 https://radyo.yayin.com.tr:2727/stream
+#EXTINF:-1 tvg-id="r-ilim-radyo" group-title="RADYO",İlim Radyo
+http://ip132.ozelip.com:8066/stream
 #EXTINF:-1 tvg-id="r-imaj-pop" group-title="RADYO",İmaj Pop
 https://stream.netradyom.com/listen/imajpop/radio.mp3
 #EXTINF:-1 tvg-id="r-imbat-fm" group-title="RADYO",İmbat FM
