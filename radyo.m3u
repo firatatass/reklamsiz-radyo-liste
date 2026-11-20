@@ -343,6 +343,8 @@ https://live.radyositesihazir.com/1025/stream/
 https://farkradyo.ozelip.com.tr:8058/stream
 #EXTINF:-1 tvg-id="r-fenomen" group-title="RADYO",Fenomen
 https://live.radyofenomen.com/fenomen/128/icecast.audio
+#EXTINF:-1 tvg-id="r-fenomen-akustik" group-title="RADYO",Fenomen Akustik
+https://live.radyofenomen.com/fenomenakustik/128/icecast.audio
 #EXTINF:-1 tvg-id="r-fenomen-clubbin" group-title="RADYO",Fenomen Clubbin
 https://live.radyofenomen.com/fenomenclubbin/128/icecast.audio
 #EXTINF:-1 tvg-id="r-fenomen-dans" group-title="RADYO",Fenomen Dans
