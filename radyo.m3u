@@ -33,6 +33,8 @@ https://moondigitalmaster.radyotvonline.net/altinsarkilar/playlist.m3u8
 https://trkvz-radyolar.ercdn.net/anewsradyo/playlist.m3u8
 #EXTINF:-1 tvg-id="r-a-para-radyo" group-title="RADYO",A Para Radyo
 https://trkvz-radyolar.ercdn.net/apararadyo/playlist.m3u8
+#EXTINF:-1 tvg-id="r-ankaranin-sesi" group-title="RADYO",Ankara'nın Sesi
+https://ankara.ozelip.com/8004/stream
 #EXTINF:-1 tvg-id="r-arabesk-fm" group-title="RADYO",Arabesk FM
 http://anadolu.liderhost.com.tr:6688/;
 #EXTINF:-1 tvg-id="r-arkadas-radyo" group-title="RADYO",Arkadaş Radyo
@@ -685,6 +687,8 @@ http://live.radyotvonline.com:9050/;
 https://anadolu.liderhost.com.tr:10901/;
 #EXTINF:-1 tvg-id="r-nefesim-fm" group-title="RADYO",Nefesim FM
 https://radyo1.radyo-dinle.tc:7057/;
+#EXTINF:-1 tvg-id="r-nigde-can-radyo" group-title="RADYO",Niğde Can Radyo
+https://stream.turkiyeradyolari.com:8156/stream
 #EXTINF:-1 tvg-id="r-nigde-fm" group-title="RADYO",Nigde FM
 http://kesintisizyayin.com:1656/;
 #EXTINF:-1 tvg-id="r-ntv-radyo" group-title="RADYO",NTV Radyo
@@ -1115,6 +1119,8 @@ https://radyo1.radyo-dinle.tc/8138/stream
 https://radyokarakocan.ozelip.com/8006/stream
 #EXTINF:-1 tvg-id="r-radyo-kent" group-title="RADYO",Radyo Kent
 https://radyo1.radyo-dinle.tc:7060/;
+#EXTINF:-1 tvg-id="r-radyo-kent-fm" group-title="RADYO",Radyo Kent FM 99.0
+https://live.sinirsizhost.com.tr/8024/stream
 #EXTINF:-1 tvg-id="r-radyo-ki" group-title="RADYO",Radyo Ki
 http://radyoki.kocaeli.edu.tr:8000/;
 #EXTINF:-1 tvg-id="r-radyo-ki-kocaeli-uni" group-title="RADYO",Radyo Ki (Kocaeli Üni.)
@@ -1267,6 +1273,8 @@ https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8
 http://radyo.yayin.com.tr:6056/stream
 #EXTINF:-1 tvg-id="r-radyo-tutkal" group-title="RADYO",Radyo Tutkal
 https://live.radyositesihazir.com/8034/stream
+#EXTINF:-1 tvg-id="r-radyo-tuzgolu" group-title="RADYO",Radyo Tuzgölü
+https://radyo.yayin.com.tr:5870/;
 #EXTINF:-1 tvg-id="r-radyo-ulku" group-title="RADYO",Radyo Ülkü
 http://radyo.yayin.com.tr:4006/;
 #EXTINF:-1 tvg-id="r-radyo-universite-ataturk-uni" group-title="RADYO",Radyo Üniversite (Atatürk Üni.)
