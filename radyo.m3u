@@ -767,8 +767,6 @@ https://anadolu.liderhost.com.tr/9094/stream
 https://sslyayin.netyayin.net/2637/stream
 #EXTINF:-1 tvg-id="r-pir-yolu" group-title="RADYO",Pir Yolu
 http://radyopiryolu.canliyayinda.com:8165/
-#EXTINF:-1 tvg-id="r-play-dance-radio" group-title="RADYO",Play Dance Radio
-https://radyo1.radyo-dinle.tc/playdanceradio/stream
 #EXTINF:-1 tvg-id="r-play-fm" group-title="RADYO",Play FM
 http://live.playfm.com.tr:9050/;
 #EXTINF:-1 tvg-id="r-podnet-radyo" group-title="RADYO",Podnet Radyo

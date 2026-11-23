@@ -93,8 +93,6 @@ https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 https://cdn1-haber61tv.yayin.com.tr/haber61tv/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-karasu-tv" tvg-logo="https://karasu.tv/wp-content/uploads/2023/09/cropped-haber-karasu.png" group-title="HABER KANALLARI",KARASU TV
 https://ip100.radyotelekomtv.com:3579/stream/play.m3u8
-#EXTINF:-1 tvg-id="t-kanal-b" tvg-logo="https://i.postimg.cc/pLhcQxG8/1683624355Kanal-B-logosu.png" group-title="HABER KANALLARI",KANAL B
-https://tv.kanalb.tr/hls/kanalb/1_2/index.m3u8
 #EXTINF:-1 tvg-id="t-ilke-tv" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="HABER KANALLARI",İLKE TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 tvg-id="t-egemax-tv" tvg-logo="https://egemaxtvcom.teimg.com/egemaxtv-com/uploads/2025/11/egemax-orjinal-kopya.png" group-title="HABER KANALLARI",EGEMAX TV
@@ -229,8 +227,6 @@ https://edge2.taksimbilisim.com/gtv/bant1/chunks.m3u8
 https://edge2.taksimbilisim.com/linetv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="t-cay-tv" tvg-logo="https://i.postimg.cc/3RMxtt8S/37958065-ico.png" group-title="YEREL KANALLAR",ÇAY TV
 https://edge2.taksimbilisim.com/caytv/bant1/chunks.m3u8
-#EXTINF:-1 tvg-id="t-atv-alanya" tvg-logo="https://alanyatelevizyonucomtr.teimg.com/alanyatelevizyonu-com-tr/uploads/2023/11/a-t-v-l-o-g-o-1.svg" group-title="YEREL KANALLAR",ATV ALANYA
-https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/chunklist_w116897790.m3u8
 #EXTINF:-1 tvg-id="t-luys-tv" tvg-logo="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/Aq2Zk1zK5WsMokll/luys-logo-mv0LokJNE3tK8ovr.png" group-title="YEREL KANALLAR",LUYS TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_2.m3u8
 #EXTINF:-1 tvg-id="t-alanya-posta-tv" tvg-logo="https://i.imgur.com/a3w9eFe.png" group-title="YEREL KANALLAR",ALANYA POSTA TV
@@ -335,8 +331,6 @@ https://listen.powerapp.com.tr/plove/love.smil/chunks.m3u8
 http://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="t-trt-muzik" tvg-logo="https://i.hizliresim.com/aekfi1aq.png" group-title="MÜZİK KANALLARI",TRT MÜZİK
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="t-ekinturk" tvg-logo="https://ekintv.net/assets/images/logo.png" group-title="MÜZİK KANALLARI",EKİNTÜRK
-https://ekintv.net/hls/ekintv.m3u8
 #EXTINF:-1 tvg-id="t-can-tempo-tv" tvg-logo="https://i.postimg.cc/027G2SSB/channels4-profile-removebg-preview-(3).png" group-title="MÜZİK KANALLARI",CAN TEMPO TV
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8
 #EXTINF:-1 tvg-id="t-slow-karadeniz-tv" tvg-logo="https://i.postimg.cc/9XRKbx3H/37704636-ico.png" group-title="MÜZİK KANALLARI",SLOW KARADENİZ TV
@@ -375,8 +369,6 @@ https://vrttv.ozelip.com:3278/hybrid/play.m3u8
 http://iptv.supertv.ro:8000/play/a001/index.m3u8
 #EXTINF:-1 tvg-id="t-televole-tv" tvg-logo="https://r.resimlink.com/aSpDT9u.png" group-title="MÜZİK KANALLARI",TELEVOLE TV
 https://host.onlineradyotv.net:8081/televolemagazin/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="t-mmn-channel" tvg-logo="https://i.hizliresim.com/mxbkwcwg.png" group-title="MÜZİK KANALLARI",MMN CHANNEL
-http://mmn.mypsx.net:1935/live/mmnhdradioturky/chunklist_w1571985729.m3u8
 #EXTINF:-1 tvg-id="t-nr1-damar" tvg-logo="https://i.imgur.com/rYtbAGZ.png" group-title="MÜZİK KANALLARI",NR1 DAMAR
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
 #EXTINF:-1 tvg-id="t-trt-belgesel" tvg-logo="https://www.trtbelgesel.com.tr/images/logo.svg" group-title="BELGESEL KANALLARI",TRT BELGESEL
