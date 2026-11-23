@@ -1127,6 +1127,8 @@ https://live.sinirsizhost.com.tr/8024/stream
 http://radyoki.kocaeli.edu.tr:8000/;
 #EXTINF:-1 tvg-id="r-radyo-ki-kocaeli-uni" group-title="RADYO",Radyo Ki (Kocaeli Üni.)
 https://listen.powerapp.com.tr/radyoki/mpeg/icecast.audio
+#EXTINF:-1 tvg-id="r-radyo-kirlangic" group-title="RADYO",Radyo Kırlangıç
+https://radyokirlangic.ozelip.com/9952/stream
 #EXTINF:-1 tvg-id="r-radyo-kocatepe-afyon-kocatepe-uni" group-title="RADYO",Radyo Kocatepe (Afyon Kocatepe Üni.)
 https://radyo.aku.edu.tr/radyo
 #EXTINF:-1 tvg-id="r-radyo-ksu" group-title="RADYO",Radyo KSÜ
