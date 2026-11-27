@@ -377,6 +377,8 @@ http://iptv.supertv.ro:8000/play/a001/index.m3u8
 https://host.onlineradyotv.net:8081/televolemagazin/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="t-nr1-damar" tvg-logo="https://i.imgur.com/rYtbAGZ.png" group-title="MÜZİK KANALLARI",NR1 DAMAR
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+#EXTINF:-1 tvg-id="t-ekinturk" tvg-logo="https://ekintv.net/assets/images/logo.png" group-title="MÜZİK KANALLARI",EKİNTÜRK
+https://ekintv.net/hls/ekintv.m3u8
 #EXTINF:-1 tvg-id="t-trt-belgesel" tvg-logo="https://www.trtbelgesel.com.tr/images/logo.svg" group-title="BELGESEL KANALLARI",TRT BELGESEL
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="t-gzt" tvg-logo="https://gzttv.tr/logo.png" group-title="BELGESEL KANALLARI",GZT
